@@ -1,1 +1,0 @@
-import{_ as r,c as s,a as o,o as n}from"./DtTSMeQy.js";const t={};function a(c,e){return n(),s("div",null,e[0]||(e[0]=[o("h1",{class:"mb-3"},"Home",-1),o("div",{class:"rounded bg-placeholder rounded border",style:{height:"100vh"}},null,-1)]))}const l=r(t,[["render",a]]);export{l as default};

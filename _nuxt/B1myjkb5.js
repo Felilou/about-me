@@ -1,0 +1,1 @@
+import{_ as o,c as s,a as r,o as a}from"./BxQCKRie.js";const t={};function n(c,e){return a(),s("div",null,e[0]||(e[0]=[r("h1",{class:"mb-3"},"Team",-1),r("div",{class:"rounded bg-placeholder rounded border",style:{height:"100vh"}},null,-1)]))}const d=o(t,[["render",n]]);export{d as default};
