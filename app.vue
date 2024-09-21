@@ -6,6 +6,6 @@
 
 <style>
 .bg-blue {
-  background-color: a qua;
+  background-color: aqua;
 }
 </style>
