@@ -1,7 +1,7 @@
 <template>
-  <div class="mx-auto my-lg-3" style="max-width: 1000px">
+  <div class="mx-auto" style="max-width: 1000px">
     <Navbar />
-    <NuxtPage class="px-3 py-3" />
+    <NuxtPage class="p-3" />
   </div>
 </template>
 

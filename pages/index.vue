@@ -2,98 +2,24 @@
   <div>
     <h1 class="mb-3">Home</h1>
     <div class="container-fluid p-0">
-      <div class="row row-cols-lg-2 row-cols-1">
-        <div class="col-lg-8 mb-lg-0 mb-3">
+      <div class="row row-cols-lg-2 row-cols-sm-1 row-cols-1">
+        <div class=" col-lg-8 rounded">
           <h5>main info</h5>
+          <p><Image /></p>
+          <p><PlaceholderText/></p>
+          <p><Image /></p>
+          <p><PlaceholderText/></p>
+          <p><Image /></p>
+          <p><PlaceholderText/></p>
         </div>
-        <div class="col-lg-4">
-          <div class="container-fluid">
-            <div class="row mb-3">
-              <div class="col">
-                <h5>Kontakt</h5>
-                <div class="card">
-                  <div class="card-body">
-                    <ul class="list-group list-group-flush">
-                      <li class="list-group-item">
-                        <i class="bi bi-telephone-fill me-2"></i>
-                        <a href="tel: +43 xxx">+43 xxx</a>
-                      </li>
-                      <li class="list-group-item">
-                        <i class="bi bi-envelope-fill me-2"></i>
-                        <a href="mailto: example@example.com"
-                          >example@example.com</a
-                        >
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+        <div class="col-lg-4 col-12">
+          <div class="container-fluid py-3 bg-body-tertiary border rounded shadow">
+            <div class="row row-cols-lg-1 row-cols-sm-2 row-cols-1">
+              <div class="col-lg-12 col-sm-6 col-12 mb-sm-0 mb-2 mb-lg-2">
+                <ContactCard />
               </div>
-            </div>
-            <div class="row">
               <div class="col">
-                <h5>Öffnugszeiten</h5>
-                <div class="card">
-                  <div class="card-body">
-                    <ul class="list-group list-group-flush">
-                      <li class="list-group-item">
-                        <div class="container-fluid p-0">
-                          <div class="row">
-                            <div class="col">Montag</div>
-                            <div class="col text-end">9 - 17</div>
-                          </div>
-                        </div>
-                      </li>
-                      <li class="list-group-item">
-                        <div class="container-fluid p-0">
-                          <div class="row">
-                            <div class="col">Montag</div>
-                            <div class="col text-end">9 - 17</div>
-                          </div>
-                        </div>
-                      </li>
-                      <li class="list-group-item">
-                        <div class="container-fluid p-0">
-                          <div class="row">
-                            <div class="col">Montag</div>
-                            <div class="col text-end">9 - 17</div>
-                          </div>
-                        </div>
-                      </li>
-                      <li class="list-group-item">
-                        <div class="container-fluid p-0">
-                          <div class="row">
-                            <div class="col">Montag</div>
-                            <div class="col text-end">9 - 17</div>
-                          </div>
-                        </div>
-                      </li>
-                      <li class="list-group-item">
-                        <div class="container-fluid p-0">
-                          <div class="row">
-                            <div class="col">Montag</div>
-                            <div class="col text-end">9 - 17</div>
-                          </div>
-                        </div>
-                      </li>
-                      <li class="list-group-item">
-                        <div class="container-fluid p-0">
-                          <div class="row">
-                            <div class="col">Montag</div>
-                            <div class="col text-end">9 - 17</div>
-                          </div>
-                        </div>
-                      </li>
-                      <li class="list-group-item">
-                        <div class="container-fluid p-0">
-                          <div class="row">
-                            <div class="col">Montag</div>
-                            <div class="col text-end">9 - 17</div>
-                          </div>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+                <OpenHoursTable />
               </div>
             </div>
           </div>
