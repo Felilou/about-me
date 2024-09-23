@@ -1,10 +1,9 @@
 <template>
   <div>
-    <h1 class="mb-3">Home</h1>
+    <h1 class="mb-2">Home</h1>
     <div class="container-fluid p-0">
       <div class="row row-cols-lg-2 row-cols-sm-1 row-cols-1">
-        <div class=" col-lg-8 rounded">
-          <h5>main info</h5>
+        <div class="col-lg-8 pt-1">
           <p><Image /></p>
           <p><PlaceholderText/></p>
           <p><Image /></p>
@@ -20,7 +19,7 @@
               </div>
               <div class="col">
                 <OpenHoursTable />
-              </div>
+              </div>  
             </div>
           </div>
         </div>
@@ -34,5 +33,9 @@
 <style>
 td {
   text-align: right;
+}
+
+p {
+  
 }
 </style>
