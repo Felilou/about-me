@@ -1,0 +1,1 @@
+import{_ as s,c as n,a as o,o as r}from"./l01cTYhE.js";const t={};function a(c,e){return r(),n("div",null,e[0]||(e[0]=[o("h1",{class:"mb-3"},"Ene Königswieser",-1)]))}const _=s(t,[["render",a]]);export{_ as default};
