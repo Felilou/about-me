@@ -1,0 +1,1 @@
+import{p as s,o as t,c,a as o}from"./Badin_Gf.js";const a={class:""},r=["src"],_=s({__name:"image",props:{src:{type:String,default:"https://picsum.photos/1920/1080"}},setup(e){return(n,p)=>(t(),c("div",a,[o("img",{src:e.src,alt:"picture",style:{width:"100%"},class:"rounded"},null,8,r)]))}});export{_};
