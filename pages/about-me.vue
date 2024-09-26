@@ -4,7 +4,11 @@
     <div class="container-fluid p-0">
       <div class="row">
         <div class="col">
-          <Image />
+          <p><Image /></p>
+          <p><PlaceholderText /></p>
+          <p><PlaceholderText /></p>
+          <p><PlaceholderText /></p>
+          <p><PlaceholderText /></p>
         </div>
       </div>
     </div>

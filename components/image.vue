@@ -8,7 +8,8 @@
 const props = defineProps({
   src: {
     type: String,
-    default: 'https://picsum.photos/1920/1080'
+    default: 'https://picsum.photos/1920/1080',
+    required: false,
   }
 })
 </script>
