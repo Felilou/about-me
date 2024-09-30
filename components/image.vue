@@ -6,7 +6,7 @@
 const props = defineProps({
   src: {
     type: String,
-    default: 'https://srv1467-files.hstgr.io/3effc9940015e6f9/files/images/20240916-GZ1A8109.jpg',
+    default: 'https://koenigswieser.info/images/20240916-GZ1A8300.jpg',
     required: false,
   }
 })

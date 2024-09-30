@@ -16,12 +16,14 @@
           </div>
         </div>
         <div class="col-lg-8 mt-lg-0 mt-4">
-          <p><Image /></p>
-          <p><PlaceholderText/></p>
-          <p><Image /></p>
-          <p><PlaceholderText/></p>
-          <p><Image /></p>
-          <p><PlaceholderText/></p>
+          <p><Image :src="'https://koenigswieser.info/images/20240916-GZ1A8208.jpg'"/></p>
+          <p><MultilangugalText :ger="'Herzlich Willkommen bei der Mikroskop-Zahnheilkunde! In unserer Ordination werden alle zahnmedizinischen Behandlungen mit dem Mikroskop durchgeführt. Als Patient/in haben sie dadurch zahlreiche Vorteile.'" :est="'no'"/></p>
+          <p><MultilangugalText :ger="'Dank der mehrfachen Vergrößerung ermöglicht mir das Mikroskop, selbst feinste Strukturen im Mundraum präzise zu erkennen und zu behandeln. Dadurch habe ich als Ihre Zahnärztin die Möglichkeit Wurzelbehandlungen, Füllungen oder auch Hygienebehandlungen ganz genau durchzuführen'" :est="'no'"/></p>
+          <p><MultilangugalText :ger="'Verbesserter Sicht führt zu minimal-invasiven Eingriffen am Zahn. Das bedeutet, es wird nur so wenig Zahnsubtantz entfernt, wie unbedingt notwendig. Darüber hinaus hilft mir das Mikroskop, mögliche Probleme frühzeitig zu erkennen, was präventive Behandlungen begünstigt und größere Eingriffe oft überflüssig macht.'" :est="'no'"/></p>
+          <p><Image :src="'https://koenigswieser.info/images/20240916-GZ1A8350.jpg'"/></p>
+          <p><MultilangugalText :ger="'Zudem sorgt das Mikroskop für eine exzellente Arbeits-Qualität. Dies ermöglicht mir bei jedem Schritt der Behandlung exakt nachzuvollziehen was geschieht, um optimale Ergebnisse zu erreichen. Für Sie bedeutet dies eine langfristig bessere Zahngesundheit und ästhetisch überzeugende Ergebnisse'" :est="'no'"/></p>
+          <p><MultilangugalText :ger="'Zudem sorgt das Mikroskop für eine exzellente Arbeits-Qualität. Dies ermöglicht mir bei jedem Schritt der Behandlung exakt nachzuvollziehen was geschieht, um optimale Ergebnisse zu erreichen. Für Sie bedeutet dies eine langfristig bessere Zahngesundheit und ästhetisch überzeugende Ergebnisse'" :est="'no'"/></p>
+          <p><MultilangugalText :ger="'Während der Behandlung können Sie sich als Patient/in ein Bild meiner Arbeit machen und über Videobrille selber mitverfolgen, was gerade mit Ihrem Zahn passiert. Alternativ können Sie sich bei Ihrem Lieblingsfilm entspannen'" :est="'no'" /></p>
         </div>
       </div>
     </div>
