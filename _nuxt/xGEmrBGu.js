@@ -1,0 +1,1 @@
+import{s,o as t,c as r}from"./BeL6O-8V.js";const c=["src"],i=s({__name:"image",props:{src:{type:String,default:"https://koenigswieser.info/images/20240916-GZ1A8300.jpg",required:!1}},setup(e){return(n,o)=>(t(),r("img",{src:e.src,alt:"picture",style:{width:"100%"},class:"rounded"},null,8,c))}});export{i as _};
