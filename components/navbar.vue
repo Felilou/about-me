@@ -1,7 +1,7 @@
 <template>
-  <div class="sticky-top">
+  <div class="sticky-top p-0 p-sm-2 pb-sm-0 bg-body">
     <nav
-      class="navbar navbar-expand-sm bg-body-tertiary border shadow rounded mt-lg-3"
+      class="navbar navbar-expand-sm bg-body border-bottom shadow mt-lg-3"
     >
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Navbar</a>
@@ -21,8 +21,8 @@
             <li class="nav-item">
               <NuxtLink to="/" class="nav-link">Home</NuxtLink>
             </li>
-            <li class="nav-item">
-              <NuxtLink to="/about-me" class="nav-link">Über mich</NuxtLink>
+            <li class="nav-item ">
+              <NuxtLink to="/about-me" class="nav-link"><MultilangugalText :est="'minu kohta'" :ger="'über mich'"/></NuxtLink>
             </li>
             <li class="nav-item">
               <NuxtLink to="/kontakt" class="nav-link">Kontakt</NuxtLink>
@@ -31,7 +31,7 @@
 
             </li>
             <li class="nav-item dropdown d-sm-flex align-items-center mb-2 mt-3 me-2 mb-3 my-sm-0">
-              <LanguageToggle />
+              <LanguageToggle :ref="language"/>
             </li>
             <li class="nav-item border me-2"></li>
             <li class="nav-item dropdown d-sm-flex align-items-center mt-3 mb-2 my-sm-0">
@@ -44,14 +44,16 @@
   </div>
 </template>
 
+<script>
+</script>
+
 <style>
 .nav-link {
-  padding: 0.25rem;
   width: fit-content;
   text-decoration: none;
 }
 
 .nav-link:hover {
-  text-decoration: underline;
+  text-decoration: wavy underline dotted;
 }
 </style>

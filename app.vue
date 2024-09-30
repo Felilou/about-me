@@ -5,3 +5,8 @@
   </div>
   <Footer />
 </template>
+
+<script setup>
+const language = ref('ger')
+const languageProvide = provide('language', language)
+</script>

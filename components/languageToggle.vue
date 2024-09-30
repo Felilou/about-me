@@ -10,16 +10,17 @@
   </a>
   <ul class="dropdown-menu dropdown-menu-end">
     <li>
-      <a class="dropdown-item"><i class="bi bi-moon-stars-fill"></i>Deutsch</a>
+      <a class="dropdown-item" @click="language='ger'">Deutsch</a>
     </li>
     <li>
-      <a class="dropdown-item"><i class="bi bi-sun-fill"></i>Estnisch</a>
+      <a class="dropdown-item" @click="language='est'">Estnisch</a>
     </li>
   </ul>
 </template>
 
 <script lang="ts" setup>
-
+const language = inject('language')
+console.log(language)
 </script>
 
 <style>
