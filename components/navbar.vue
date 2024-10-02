@@ -1,59 +1,135 @@
 <template>
-  <div class="sticky-top p-0 p-sm-2 pb-sm-0 bg-body">
-    <nav
-      class="navbar navbar-expand-sm bg-body border-bottom shadow mt-lg-3"
-    >
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav nav-pills mb-2 mb-sm-0 h-100 w-100">
+  <nav class="navbar navbar-expand-sm py-4 sticky-top">
+    <div class="container-fluid d-flex align-items-baseline">
+      <a class="navbar-brand" href="#">Nav</a>
+      <button
+        class="navbar-toggler border-0"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="offcanvas offcanvas-end bg-none"
+        tabindex="-1"
+        id="offcanvasNavbar"
+        aria-labelledby="offcanvasNavbarLabel"
+      >
+        <div class="offcanvas-header py-4">
+          <h1 class="offcanvas-title" id="offcanvasNavbarLabel">Menü</h1>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav flex-grow-1 d-flex border-bottom">
+            <li
+              :class="
+                'nav-item ' +
+                (active === 1 ? 'border-bottom border-primary' : 'border-none')
+              "
+              @click="active = 1"
+            >
+              <NuxtLink
+                :class="
+                  'nav-link rounded px-2 ' +
+                  (active === 1
+                    ? 'bg-secondary-subtle bg-opacity-50'
+                    : 'bg-sm-secondary bg-opacity-10')
+                "
+                aria-current="page"
+                to="/"
+                ><Icon name="heroicons:home-solid" class="me-1" />Home</NuxtLink
+              >
+            </li>
+            <li
+              :class="
+                'nav-item my-1 my-sm-0 ' +
+                (active === 2 ? 'border-bottom border-primary' : 'border-none')
+              "
+              @click="active = 2"
+            >
+              <NuxtLink
+                :class="
+                  'nav-link rounded px-2 ' +
+                  (active === 2
+                    ? 'bg-secondary-subtle bg-opacity-50'
+                    : 'bg-sm-secondary bg-opacity-10')
+                "
+                aria-current="page"
+                to="/about-me"
+                ><Icon name="heroicons:user-16-solid" class="me-1" />Über
+                mich</NuxtLink
+              >
+            </li>
+            <li
+              :class="
+                'nav-item ' +
+                (active === 3 ? 'border-bottom border-primary' : 'border-none')
+              "
+              @click="active = 3"
+            >
+              <NuxtLink
+                :class="
+                  'nav-link rounded px-2 ' +
+                  (active === 3
+                    ? 'bg-sm-secondary-subtle bg-opacity-10'
+                    : 'bg-sm-secondary-subtle bg-opacity-10')
+                "
+                aria-current="page"
+                to="/kontakt"
+                ><Icon
+                  name="heroicons:phone-solid"
+                  class="me-1"
+                />Kontakt</NuxtLink
+              >
+            </li>
+            <hr class="my-2" />
+            <li class="nav-item ms-sm-auto">
+              <select
+                class="form-select rounded border-0 bg-secondary-subtle"
+                aria-label="Default select example"
+              >
+                <option value="at" selected>at</option>
+                <option value="ee" >ee</option>
+              </select>
+            </li>
             <li class="nav-item">
-              <NuxtLink to="/" class="nav-link">Home</NuxtLink>
-            </li>
-            <li class="nav-item ">
-              <NuxtLink to="/about-me" class="nav-link"><MultilangugalText :est="'minu kohta'" :ger="'über mich'"/></NuxtLink>
-            </li>
-            <li class="nav-item">
-              <NuxtLink to="/kontakt" class="nav-link">Kontakt</NuxtLink>
-            </li>
-            <li class="ms-auto nav-item">
-
-            </li>
-            <li class="nav-item dropdown d-sm-flex align-items-center mb-2 mt-3 me-2 mb-3 my-sm-0">
-              <LanguageToggle :ref="language"/>
-            </li>
-            <li class="nav-item border me-2"></li>
-            <li class="nav-item dropdown d-sm-flex align-items-center mt-3 mb-2 my-sm-0">
-              <ModeToggle />
+              <div class="form-check form-switch">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  role="switch"
+                  id="flexSwitchCheckDefault"
+                />
+                <label class="form-check-label" for="flexSwitchCheckDefault"
+                  >mode</label
+                >
+              </div>
             </li>
           </ul>
         </div>
       </div>
-    </nav>
-  </div>
+    </div>
+  </nav>
 </template>
 
-<script>
+<script lang="ts" setup>
+const active = ref(1);
 </script>
 
 <style>
-.nav-link {
-  width: fit-content;
-  text-decoration: none;
+.nav-link:hover {
+  background-color: var(--bs-secondary-bg-subtle);
 }
 
-.nav-link:hover {
-  text-decoration: wavy underline dotted;
+.nav-item {
+  padding-bottom: 0.3rem;
 }
 </style>

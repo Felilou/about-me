@@ -1,12 +1,10 @@
 <template>
-  <Navbar  style="max-width: 1000px;" class="mx-auto"/>
-  <div class="mx-auto" style="max-width: 1000px">
-    <NuxtPage class="p-3" />
-  </div>
+  <Navbar/>
+  <NuxtPage />
   <Footer />
 </template>
 
 <script setup>
-const language = ref('ger')
-const languageProvide = provide('language', language)
+const settings = ref({language: 'at', mode: 'dark'})
+provide('settings', settings)
 </script>
