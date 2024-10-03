@@ -3,7 +3,7 @@
     <div class="container-fluid d-flex align-items-baseline">
       <a class="navbar-brand" href="#">Nav</a>
       <button
-        class="navbar-toggler border-0"
+        class="navbar-toggler border-0 px-2"
         type="button"
         data-bs-toggle="offcanvas"
         data-bs-target="#offcanvasNavbar"
@@ -46,13 +46,7 @@
             </li>
             <hr class="my-2" />
             <li class="nav-item ms-sm-auto mb-2 mb-sm-0 me-0 me-sm-2">
-              <select
-                class="form-select rounded border-0 bg-secondary-subtle"
-                aria-label="Default select example"
-              >
-                <option value="at" selected>at</option>
-                <option value="ee">ee</option>
-              </select>
+              <LanguageSelect />
             </li>
             <li class="nav-item mb-2 mb-sm-0 d-flex align-items-center">
               <ThemeSwitch />
@@ -80,6 +74,11 @@ const active = ref(1);
 .active-link {
   border-bottom: 2px solid var(--bs-primary);
   border-radius: 0.1rem;
+}
+
+.navbar-toggler {
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 @media only screen and (max-width: 576px) {
