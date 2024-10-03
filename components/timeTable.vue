@@ -1,5 +1,5 @@
 <template>
-  <ul class="list-group list-group-flush">
+  <ul class="list-group">
     <li v-for="day in timeTable" class="list-group-item">
       <div class="d-flex">
         <div class="me-auto">{{ day.day }}</div>
