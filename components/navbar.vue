@@ -29,89 +29,33 @@
         </div>
         <div class="offcanvas-body">
           <ul class="navbar-nav flex-grow-1 d-flex border-bottom">
-            <li
-              :class="
-                'nav-item ' +
-                (active === 1 ? 'border-bottom border-primary' : 'border-none')
-              "
-              @click="active = 1"
-            >
-              <NuxtLink
-                :class="
-                  'nav-link rounded px-2 ' +
-                  (active === 1
-                    ? 'bg-secondary-subtle bg-opacity-50'
-                    : 'bg-sm-secondary bg-opacity-10')
-                "
-                aria-current="page"
-                to="/"
-                ><Icon name="heroicons:home-solid" class="me-1" />Home</NuxtLink
-              >
+            <li :class="'nav-item my-1 my-sm-0 me-0 me-sm-2 ' + (active === 1 ? 'active-link' : 'border-0')" @click="active = 1">
+              <NuxtLink :class="'nav-link rounded px-2 py-2 ' + (active === 1 ? 'bg-secondary bg-opacity-10' : 'bg-sm-secondary bg-opacity-10')" aria-current="page" to="/about-me">
+                <Icon name="heroicons:home-solid" class="me-1" />Home
+              </NuxtLink>
             </li>
-            <li
-              :class="
-                'nav-item my-1 my-sm-0 ' +
-                (active === 2 ? 'border-bottom border-primary' : 'border-none')
-              "
-              @click="active = 2"
-            >
-              <NuxtLink
-                :class="
-                  'nav-link rounded px-2 ' +
-                  (active === 2
-                    ? 'bg-secondary-subtle bg-opacity-50'
-                    : 'bg-sm-secondary bg-opacity-10')
-                "
-                aria-current="page"
-                to="/about-me"
-                ><Icon name="heroicons:user-16-solid" class="me-1" />Über
-                mich</NuxtLink
-              >
+            <li :class="'nav-item my-1 my-sm-0 me-0 me-sm-2 ' + (active === 2 ? 'active-link' : 'border-0')" @click="active = 2">
+              <NuxtLink :class="'nav-link rounded px-2 py-2 ' + (active === 2 ? 'bg-secondary bg-opacity-10' : 'bg-sm-secondary bg-opacity-10')" aria-current="page" to="/about-me">
+                <Icon name="heroicons:user-16-solid" class="me-1" />Über mich
+              </NuxtLink>
             </li>
-            <li
-              :class="
-                'nav-item ' +
-                (active === 3 ? 'border-bottom border-primary' : 'border-none')
-              "
-              @click="active = 3"
-            >
-              <NuxtLink
-                :class="
-                  'nav-link rounded px-2 ' +
-                  (active === 3
-                    ? 'bg-sm-secondary-subtle bg-opacity-10'
-                    : 'bg-sm-secondary-subtle bg-opacity-10')
-                "
-                aria-current="page"
-                to="/kontakt"
-                ><Icon
-                  name="heroicons:phone-solid"
-                  class="me-1"
-                />Kontakt</NuxtLink
-              >
+            <li :class=" 'nav-item me-0 me-sm-2 ' + (active === 3 ? 'active-link' : 'border-0') " @click="active = 3">
+              <NuxtLink :class=" 'nav-link rounded px-2 py-2 ' + (active === 3 ? 'bg-secondary bg-opacity-10' : 'bg-sm-secondary bg-opacity-10')" aria-current="page" to="/kontakt">
+                <Icon name="heroicons:phone-solid" class="me-1"/>Kontakt
+              </NuxtLink>
             </li>
             <hr class="my-2" />
-            <li class="nav-item ms-sm-auto">
+            <li class="nav-item ms-sm-auto mb-2 mb-sm-0 me-0 me-sm-2">
               <select
                 class="form-select rounded border-0 bg-secondary-subtle"
                 aria-label="Default select example"
               >
                 <option value="at" selected>at</option>
-                <option value="ee" >ee</option>
+                <option value="ee">ee</option>
               </select>
             </li>
-            <li class="nav-item">
-              <div class="form-check form-switch">
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  role="switch"
-                  id="flexSwitchCheckDefault"
-                />
-                <label class="form-check-label" for="flexSwitchCheckDefault"
-                  >mode</label
-                >
-              </div>
+            <li class="nav-item mb-2 mb-sm-0 d-flex align-items-center">
+              <ThemeSwitch />
             </li>
           </ul>
         </div>
@@ -131,5 +75,15 @@ const active = ref(1);
 
 .nav-item {
   padding-bottom: 0.3rem;
+}
+
+.active-link {
+  border-bottom: 2px solid var(--bs-primary);
+}
+
+@media only screen and (max-width: 576px) {
+.active-link{
+  border-bottom: 0;
+}
 }
 </style>
