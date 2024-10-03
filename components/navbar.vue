@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-sm py-4 sticky-top">
+  <nav class="navbar navbar-expand-sm py-4 sticky-top bg-body">
     <div class="container-fluid d-flex align-items-baseline">
       <a class="navbar-brand" href="#">Nav</a>
       <button

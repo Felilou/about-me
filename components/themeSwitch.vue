@@ -5,12 +5,25 @@
       type="checkbox"
       role="switch"
       id="flexSwitchCheckDefault"
+      v-model="isDark"
+      @change="debugTheme()"
     />
   </div>
 </template>
 
 <script lang="ts" setup>
-const isDark = computed(() => {})
+const settings: any = inject('settings');
+const isDark = ref(true);
+
+onMounted(() => {
+  isDark.value = settings.mode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+  document.body.dataset.bsTheme = isDark.value ? 'dark' : 'ligth';
+})
+
+function debugTheme(){
+  document.body.dataset.bsTheme = isDark.value ? 'dark' : 'ligth';
+}
+
 </script>
 
 <style>
