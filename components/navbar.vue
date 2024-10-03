@@ -79,6 +79,7 @@ const active = ref(1);
 
 .active-link {
   border-bottom: 2px solid var(--bs-primary);
+  border-radius: 0.1rem;
 }
 
 @media only screen and (max-width: 576px) {
