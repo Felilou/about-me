@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar navbar-expand-sm py-4 sticky-top bg-body">
-    <div class="container-fluid d-flex align-items-baseline">
+    <div class="container-fluid d-flex align-items-baseline bb">
       <a class="navbar-brand" href="#">Nav</a>
       <button
         class="navbar-toggler border-0 px-2"
@@ -28,7 +28,7 @@
           ></button>
         </div>
         <div class="offcanvas-body">
-          <ul class="navbar-nav flex-grow-1 d-flex border-bottom">
+          <ul class="navbar-nav flex-grow-1 d-flex">
             <li :class="'nav-item my-1 my-sm-0 me-0 me-sm-2 ' + (active === 1 ? 'active-link' : 'contains-link')" @click="active = 1">
               <NuxtLink :class=" 'nav-link rounded px-2 py-2 ' + (active === 1 ? 'bg-secondary bg-opacity-10 fw-bold' : '')" aria-current="page" to="/">
                 <Icon name="heroicons:home-solid" class="me-1" />Home
@@ -64,6 +64,9 @@ const active = ref(1);
 </script>
 
 <style scoped>
+.bb {
+  border-bottom: 1px solid var(--bs-secondary);
+}
 .contains-link:hover {
   border-bottom: 2px solid var(--bs-secondary);
   border-radius: 0.1rem;

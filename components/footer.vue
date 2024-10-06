@@ -5,7 +5,7 @@
         <div class="col">
           <div class="card rounded-0 border-0">
             <div class="card-body">
-              <h3 class="card-title fw-bold border-bottom">Öffnungszeiten</h3>
+              <h3 class="card-title pb-1 fw-bold border-bottom">Öffnungszeiten</h3>
               <p class="card-text">
                 <TimeTable/>
               </p>
@@ -15,7 +15,7 @@
         <div class="col">
           <div class="card rounded-0 border-0">
             <div class="card-body">
-              <h3 class="card-title fw-bold border-bottom">Kontakt</h3>
+              <h3 class="card-title pb-1 fw-bold border-bottom">Kontakt</h3>
               <p class="card-text">
                 <KontaktTable/>
               </p>
