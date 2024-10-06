@@ -17,7 +17,7 @@
             <div class="card-body">
               <h3 class="card-title fw-bold border-bottom">Kontakt</h3>
               <p class="card-text">
-                <TimeTable/>
+                <KontaktTable/>
               </p>
             </div>
           </div>

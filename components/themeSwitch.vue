@@ -3,7 +3,6 @@
     on-icon="i-heroicons-sun-solid"
     off-icon="i-heroicons-moon-solid"
     size="xl"
-    color="blue"
     v-model="isDark"
     @change="debugTheme()"
   />
@@ -31,5 +30,3 @@ function debugTheme() {
 }
 </script>
 
-<style>
-</style>
