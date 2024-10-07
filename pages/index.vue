@@ -1,7 +1,8 @@
 <template>
   <main id="wrapper">
-    <div id="spacer" class="d-flex text-center justify-content-center align-items-end">
-      <h1 class="display-1 p-2 rounded shadow" id="header">Willkommmen</h1>
+    <div id="spacer" class="d-flex justify-content-end flex-column">
+      <div class="display-1 rounded shadow h1 mx-auto mb-5" id="header">Willkommmen</div>
+      <div id="transition" class=""></div>
     </div>
     <div class="container-fluid p-3 bg-body m-0">
       <div class="row">
@@ -26,26 +27,38 @@
   background-image: url('https://koenigswieser.info/images/20240916-GZ1A8334-1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 40% 0%;
+  background-position:  0%;
   background-attachment: fixed;
+}
+
+#transition {
+  min-height: 5vw;
+  background-image: linear-gradient(rgba(var(--bs-body-bg-rgb), 0), rgba(var(--bs-body-bg-rgb), 1));
 }
 
 #header {
   transform: translate(50vw 50vh);
   color: var(--bs-primary);
   font-weight: bold;
-  background-color: rgba(var(--bs-secondary-bg-rgb), 0.7);
+  background-color: rgba(var(--bs-body-bg-rgb), 0.7);
   height: fit-content;
 }
 
 #spacer {
-  height: 70vh;
-  padding-bottom: 5rem;
+  max-height: 80vh;
+  height: 80vw;
+  min-height: 50vh;
 }
 
-@media only screen and (max-width: 733px) {
+.row {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto
+}
+
+@media only screen and (max-width: 1280px) {
   #wrapper {
-    background-size: cover;
+    background-position: 30% -100px;
   }
 }
 
