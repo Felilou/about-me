@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="container-fluid bg-body">
+    <div class="container-fluid bg-body mt-3 shadow">
       <div class="row row-cols-1 row-cols-sm-2 gap-sm-0 gap-2">
         <div class="col">
           <div class="card rounded-0 border-0">

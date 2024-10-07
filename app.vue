@@ -1,7 +1,9 @@
 <template>
-  <Navbar />
-  <NuxtPage />
-  <Footer />
+    <Navbar />
+    <div class="mx-auto" style="max-width: 1000px;">
+      <NuxtPage />
+    </div>
+    <Footer />
 </template>
 
 <style scoped>

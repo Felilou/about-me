@@ -1,10 +1,10 @@
 <template>
-  <main id="wrapper">
-    <div id="spacer" class="d-flex justify-content-end flex-column">
-      <div class="display-1 rounded shadow h1 mx-auto mb-5 p-1" id="header">Willkommmen</div>
-      <div id="transition" class=""></div>
+  <div id="wrapper" class="rounded shadow">
+    <div id="heroImg" class="d-flex justify-content-end flex-column bg-transparent align-content-center">
+        <div class="display-1 rounded shadow h1 mx-auto mb-5 p-1" id="header">Willkommmen</div>
+        <div id="transition" class=""></div>
     </div>
-    <div class="container-fluid p-3 bg-body m-0">
+    <div class="container-fluid bg-body m-0">
       <div class="row">
         <div class="col">
           <p>Herzlich Willkommen bei der Mikroskop-Zahnheilkunde! In unserer Ordination werden alle zahnmedizinischen Behandlungen mit dem Mikroskop durchgeführt. Als Patient/in haben sie dadurch zahlreiche Vorteile.</p>
@@ -17,19 +17,22 @@
         </div>
       </div>
     </div>
-  </main>
+  </div>
+    
 </template>
 
 <script setup></script>
 
 <style scoped>
-#wrapper {
-  background-image: url('/img/20240916-GZ1A8300-1.jpg');
+#heroImg {
+  background-image: url('/img/20240916-GZ1A8139.jpg');
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 0px -300px;
   background-attachment: fixed;
+  background-position: center top;
+  height: 80vh;
+  max-height: 120vw;
 }
+
 
 #transition {
   height: 5vw;
@@ -38,35 +41,9 @@
 }
 
 #header {
-  transform: translate(50vw 50vh);
   color: var(--bs-primary);
   font-weight: bold;
   background-color: rgba(var(--bs-body-bg-rgb), 0.7);
   height: fit-content;
 }
-
-#spacer {
-  max-height: 80vh;
-  height: 80vw;
-  min-height: 50vh;
-}
-
-.row {
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto
-}
-
-@media only screen and (max-width: 772px) {
-  #wrapper {
-    background-position: 30% -50px !important;
-  }
-}
-
-@media only screen and (max-width: 1800px) {
-  #wrapper {
-    background-position: 30% -100px;
-  }
-}
-
 </style>
