@@ -1,6 +1,6 @@
 <template>
     <Navbar />
-    <div class="mx-auto" style="max-width: 1000px;">
+    <div class="mx-auto" >
       <NuxtPage />
     </div>
     <Footer />

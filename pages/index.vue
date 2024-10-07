@@ -1,12 +1,16 @@
 <template>
-  <div id="wrapper" class="rounded shadow">
-    <div id="heroImg" class="d-flex justify-content-end flex-column bg-transparent align-content-center">
-        <div class="display-1 rounded shadow h1 mx-auto mb-5 p-1" id="header">Willkommmen</div>
-        <div id="transition" class=""></div>
+  <div id="wrapper">
+    <div class="sticky-top text-center d-flex align-items-stretch" style="z-index: -1;" id="heroImg">
+      <div class="position-absolute start-50 translate-middle" style="top: 75%;">
+        <h1 class="bg-body rounded p-2">aökdwla</h1>
+      </div>
     </div>
-    <div class="container-fluid bg-body m-0">
+    
+    <div class="container-fluid bg-body p-0">
+      <div class="transition position-relative sticky-bottom p-2" style="height: 1.5rem; bottom: 1.5rem;"></div>
+      <div class="container-fluid m-0 mx-auto" style="max-width: 1000px;">
       <div class="row">
-        <div class="col">
+        <div class="col bg-body">
           <p>Herzlich Willkommen bei der Mikroskop-Zahnheilkunde! In unserer Ordination werden alle zahnmedizinischen Behandlungen mit dem Mikroskop durchgeführt. Als Patient/in haben sie dadurch zahlreiche Vorteile.</p>
           <p>Dank der mehrfachen Vergrößerung ermöglicht das Mikroskop, selbst feinste Strukturen im Mundraum präzise zu erkennen und zu behandeln. Dadurch habe ich als Ihre Zahnärztin die Möglichkeit Wurzelbehandlungen, Füllungen oder auch Hygienebehandlungen ganz genau durchzuführen.</p>
           <p><img src="/img/20240916-GZ1A8208-1.jpg" alt="" class="w-100 rounded shadow"></p>
@@ -17,6 +21,7 @@
         </div>
       </div>
     </div>
+    </div>
   </div>
     
 </template>
@@ -26,24 +31,12 @@
 <style scoped>
 #heroImg {
   background-image: url('/img/20240916-GZ1A8139.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center top;
   height: 80vh;
-  max-height: 120vw;
+  background-size: cover;
+  background-position: center top;
 }
 
-
-#transition {
-  height: 5vw;
-  max-height: 50px;
+.transition {
   background-image: linear-gradient(rgba(var(--bs-body-bg-rgb), 0), rgba(var(--bs-body-bg-rgb), 1));
-}
-
-#header {
-  color: var(--bs-primary);
-  font-weight: bold;
-  background-color: rgba(var(--bs-body-bg-rgb), 0.7);
-  height: fit-content;
 }
 </style>
