@@ -27,12 +27,13 @@
   background-image: url('/img/20240916-GZ1A8300-1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position:  0%;
+  background-position: 0px -300px;
   background-attachment: fixed;
 }
 
 #transition {
-  min-height: 5vw;
+  height: 5vw;
+  max-height: 50px;
   background-image: linear-gradient(rgba(var(--bs-body-bg-rgb), 0), rgba(var(--bs-body-bg-rgb), 1));
 }
 
@@ -56,7 +57,13 @@
   margin-right: auto
 }
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (max-width: 772px) {
+  #wrapper {
+    background-position: 30% -50px !important;
+  }
+}
+
+@media only screen and (max-width: 1800px) {
   #wrapper {
     background-position: 30% -100px;
   }
