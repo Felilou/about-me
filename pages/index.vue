@@ -1,13 +1,13 @@
 <template>
   <div id="wrapper">
-    <div class="sticky-top text-center d-flex align-items-stretch" style="z-index: -1;" id="heroImg">
+    <div class="sticky-top text-center d-flex align-items-stretch" style="z-index: -2;" id="heroImg">
       <div class="position-absolute start-50 translate-middle" style="top: 75%;">
         <h1 class="bg-body rounded p-2">aökdwla</h1>
       </div>
     </div>
     
-    <div class="container-fluid bg-body p-0">
-      <div class="transition position-relative sticky-bottom p-2" style="height: 1.5rem; bottom: 1.5rem;"></div>
+    <div class="container-fluid bg-body p-0" >
+      <div class="transition position-relative sticky-bottom p-2" style="height: 1.5rem; bottom: 1.5rem; z-index: -2;"></div>
       <div class="container-fluid m-0 mx-auto" style="max-width: 1000px;">
       <div class="row">
         <div class="col bg-body">
@@ -31,12 +31,20 @@
 <style scoped>
 #heroImg {
   background-image: url('/img/20240916-GZ1A8139.jpg');
-  height: 60vh;
+  height: 80vh;
   background-size: cover;
   background-position: center top;
 }
 
 .transition {
   background-image: linear-gradient(rgba(var(--bs-body-bg-rgb), 0), rgba(var(--bs-body-bg-rgb), 1));
+}
+
+@media only screen and (max-width: 576px) {
+  #heroImg {
+  
+  height: 60vh;
+  
+}
 }
 </style>
