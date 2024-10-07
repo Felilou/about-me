@@ -31,7 +31,7 @@
 <style scoped>
 #heroImg {
   background-image: url('/img/20240916-GZ1A8139.jpg');
-  height: 80vh;
+  height: 60vh;
   background-size: cover;
   background-position: center top;
 }
