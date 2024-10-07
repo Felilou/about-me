@@ -1,7 +1,7 @@
 <template>
   <main id="wrapper">
     <div id="spacer" class="d-flex justify-content-end flex-column">
-      <div class="display-1 rounded shadow h1 mx-auto mb-5" id="header">Willkommmen</div>
+      <div class="display-1 rounded shadow h1 mx-auto mb-5 p-1" id="header">Willkommmen</div>
       <div id="transition" class=""></div>
     </div>
     <div class="container-fluid p-3 bg-body m-0">
@@ -9,7 +9,7 @@
         <div class="col">
           <p>Herzlich Willkommen bei der Mikroskop-Zahnheilkunde! In unserer Ordination werden alle zahnmedizinischen Behandlungen mit dem Mikroskop durchgeführt. Als Patient/in haben sie dadurch zahlreiche Vorteile.</p>
           <p>Dank der mehrfachen Vergrößerung ermöglicht das Mikroskop, selbst feinste Strukturen im Mundraum präzise zu erkennen und zu behandeln. Dadurch habe ich als Ihre Zahnärztin die Möglichkeit Wurzelbehandlungen, Füllungen oder auch Hygienebehandlungen ganz genau durchzuführen.</p>
-          <p><img src="https://koenigswieser.info/images/20240916-GZ1A8208.jpg" alt="" class="w-100"></p>
+          <p><img src="/img/20240916-GZ1A8208-1.jpg" alt="" class="w-100 rounded shadow"></p>
           <p>Verbesserter Sicht führt zu minimal-invasiven Eingriffen am Zahn. Das bedeutet, es wird nur so wenig Zahnsubtantz entfernt, wie unbedingt notwendig. Darüber hinaus hilft das Mikroskop, mögliche Probleme frühzeitig zu erkennen, was präventive Behandlungen begünstigt und größere Eingriffe oft überflüssig macht.</p>
           <p>Zudem sorgt das Mikroskop für eine exzellente Arbeits-Qualität. Dies ermöglicht bei jedem Schritt der Behandlung exakt nachzuvollziehen was geschieht, um optimale Ergebnisse zu erreichen. Für Sie bedeutet dies eine langfristig bessere Zahngesundheit und ästhetisch überzeugende Ergebnisse.</p>
           <p>Während der Behandlung können Sie sich als Patient/in ein Bild meiner Arbeit machen und über Videobrille selber mitverfolgen, was gerade mit Ihrem Zahn passiert. Alternativ können Sie sich bei Ihrem Lieblingsfilm entspannen.</p>
@@ -24,7 +24,7 @@
 
 <style scoped>
 #wrapper {
-  background-image: url('https://koenigswieser.info/images/20240916-GZ1A8334-1.jpg');
+  background-image: url('/img/20240916-GZ1A8300-1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position:  0%;
