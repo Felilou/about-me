@@ -1,1 +1,0 @@
-import{_ as a,c,a as e,o}from"./C9QmAuIN.js";const n={},r={id:"wrapper"};function t(d,s){return o(),c("main",r,s[0]||(s[0]=[e("div",{id:"spacer"},null,-1),e("div",{class:"container-fluid"},[e("div",{class:"row"},[e("div",{class:"col"}," Willkommen ")])],-1)]))}const l=a(n,[["render",t],["__scopeId","data-v-209e5abc"]]);export{l as default};
