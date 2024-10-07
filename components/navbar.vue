@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-sm py-4 sticky-top bg-body">
+  <nav class="navbar navbar-expand-sm p-0 pt-4 pb-4 pb-sm-0 sticky-top bg-body">
     <div class="container-fluid d-flex align-items-baseline bb">
       <a class="navbar-brand" href="#">Nav</a>
       <button
@@ -61,6 +61,16 @@
 
 <script lang="ts" setup>
 const active = ref(1);
+onMounted(() => {
+  const route = useRouter().currentRoute.value.path;
+  if(route === '/'){
+    active.value = 1
+  } else if(route === '/about-me'){
+    active.value = 2
+  } else if(route === '/kontakt'){
+    active.value = 3
+  }
+})
 </script>
 
 <style scoped>
@@ -87,6 +97,9 @@ const active = ref(1);
 }
 
 @media only screen and (max-width: 576px) {
+  .bb {
+    border-bottom: 0;
+  }
   
   .contains-link:hover {
     border-bottom: 0px !important;

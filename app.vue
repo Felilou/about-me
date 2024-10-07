@@ -1,8 +1,12 @@
 <template>
-    <Navbar></Navbar>
-    <NuxtPage />
-    <Footer></Footer>
+  <Navbar />
+  <NuxtPage />
+  <Footer />
 </template>
+
+<style scoped>
+</style>
+
 
 <script setup>
 const settings = ref({language: 'at', mode: 'ligth'})
