@@ -2,7 +2,7 @@
   <div id="wrapper">
     <div class="sticky-top text-center d-flex align-items-stretch" style="z-index: -2;" id="heroImg">
       <div class="position-absolute start-50 translate-middle" style="top: 75%;">
-        <h1 class="bg-body rounded p-2">aökdwla</h1>
+        <h1 class="text-dark display-1 fw-bold">Willkommen</h1>
       </div>
     </div>
     
