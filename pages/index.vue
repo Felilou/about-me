@@ -1,7 +1,7 @@
 <template>
   <div class="text-center d-flex align-items-stretch" style="z-index: -2" id="heroImg"></div>
   <div id="spacer" class="d-flex align-items-end justify-content-center pb-5">
-    <h1 class="display-1 monospace" id="heroHeading">Wilkommen</h1>
+    <h1 class="display-1 monospace" id="heroHeading">Willkommen</h1>
   </div>
   <div class="container-fluid bg-body p-0">
     <div class="container-fluid m-0 mx-auto" style="max-width: 1000px">
@@ -62,7 +62,7 @@
 
 <style scoped>
 #heroImg {
-  background-image: url("/img/20240916-GZ1A8139.jpg");
+  background-image: url("public/img/20240916-GZ1A8232-1.jpg");
   height: 100vh;
   width: 100vw;
   background-size: cover;
@@ -83,7 +83,7 @@ strong {
 
 #spacer {
   height: 80vh !important;
-  background-image: linear-gradient(rgba(var(--bs-body-bg-rgb),0) 50%, rgba(var(--bs-body-bg-rgb),1) 90%);
+  background-image: linear-gradient(rgba(var(--bs-body-bg-rgb),0) 50%, rgba(var(--bs-body-bg-rgb),1) 95%);
 }
 
 </style>
