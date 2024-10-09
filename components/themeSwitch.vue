@@ -9,7 +9,6 @@
 </template>
 
 <script lang="ts" setup>
-const settings: any = inject("settings");
 const isDark = ref(true);
 
 onMounted(() => {
@@ -25,8 +24,7 @@ onMounted(() => {
 
 function debugTheme() {
   document.body.dataset.bsTheme = isDark.value ? "dark" : "ligth";
-  settings.mode = document.body.dataset.bsTheme;
-  localStorage.setItem("theme", settings.mode);
+  localStorage.setItem("theme", isDark.value ? "dark" : "ligth");
 }
 </script>
 
