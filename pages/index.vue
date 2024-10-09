@@ -103,4 +103,10 @@ strong {
     rgba(var(--bs-body-bg-rgb), 1) 95%
   );
 }
+
+@media only screen and (max-width: 576px) {
+  #spacer {
+    height: 60vh !important;
+  }
+}
 </style>
