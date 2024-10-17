@@ -4,10 +4,10 @@
             <div class="flex flex-col justify-center h-[100%]">
                 <div class="self-end">
                     <h1
-                        class="text-4xl lg:text-8xl p-2 bg-primary/75 animate__animated self-center animate__fadeInLeftBig relative right-20 top-10 w-fit">
+                        class="text-4xl lg:text-8xl p-2 bg-primary/75 animate__animated self-center animate__fadeInLeftBig relative right-20 top-10 w-fit text-white dark:text-black">
                         Ene</h1>
                     <h1
-                        class="text-4xl lg:text-8xl p-2 bg-primary/75 animate__animated self-center animate__fadeInRightBig relative right-10 top-12 w-fit">
+                        class="text-4xl lg:text-8xl p-2 bg-primary/75 animate__animated self-center animate__fadeInRightBig relative right-10 top-12 w-fit text-white dark:text-black">
                         Königswieser</h1>
                 </div>
             </div>

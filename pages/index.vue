@@ -3,10 +3,10 @@
     <template #title>
       <div class="flex flex-col items-left justify-center h-[100%]">
         <h1
-          class="text-4xl lg:text-8xl p-2 bg-primary/75 animate__animated animate__fadeInRightBig relative left-5 top-10 w-fit">
+          class="text-4xl lg:text-8xl p-2 bg-primary/75 animate__animated animate__fadeInRightBig relative left-5 top-10 w-fit text-white dark:text-black">
           Herzlich</h1>
         <h1
-          class="text-4xl lg:text-8xl p-2 bg-primary/75 animate__animated animate__fadeInLeftBig relative left-10 top-12 w-fit">
+          class="text-4xl lg:text-8xl p-2 bg-primary/75 animate__animated animate__fadeInLeftBig relative left-10 top-12 w-fit text-white dark:text-black">
           Wilkommen</h1>
       </div>
     </template>

@@ -28,10 +28,10 @@ const props = defineProps({
   position: fixed;
   top: 0;
   left: 50%;
-  transform: translateX(-50%);
-  width: 100vw;
+  width: 100%;
   height: auto;
-  z-index: -1; /* Hinter dem Inhalt */
-  object-fit: cover; /* Das Bild passt sich der Größe an */
+  transform: translateX(-50%);
+  z-index: -1;
+  object-fit: cover;
 }
 </style>
