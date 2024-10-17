@@ -1,17 +1,15 @@
 <template>
-  <div class="md:h-[80vh] h-[75vh] flex flex-col items-left justify-center">
-    <div>
+  <ContainerWithHeroImg imgUrl="/img/20240916-GZ1A8208-1.jpg">
+    <template #title>
+      <div>
       <h1 class="text-8xl p-2 bg-primary/75 animate__animated animate__fadeInRightBig relative left-5 w-fit">Herzlich</h1>
-      <br />
     </div>
     <div>
       <h1 class="text-8xl p-2 bg-primary/75 animate__animated animate__fadeInLeftBig relative left-10 w-fit">Wilkommen</h1>
-    </div>
-  </div>
-  <div class="animate__animated animate__fadeInUp">
-    <div class="h-[20vh] md:h-[15vh] bg-gradient-to-b from-transparent to-white dark:to-gray-900"></div>
-    <div class="bg-white text-black dark:bg-gray-900 dark:text-white">
-      <div class="mx-auto py-5" style="max-width: 1000px">
+    </div>      
+    </template>
+    <template #content>
+      <div class="mx-auto" style="max-width: 1000px;">
         <LanguageBox :languageProp="'at'">
           <p>
             <strong>Herzlich Willkommen bei der Mikroskop-Zahnheilkunde!</strong>
@@ -83,8 +81,8 @@
           </p>
         </LanguageBox>
       </div>
-    </div>
-  </div>
+    </template>
+  </ContainerWithHeroImg>
 </template>
 
 <script setup>

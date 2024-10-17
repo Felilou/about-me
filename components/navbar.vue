@@ -20,27 +20,25 @@ const isOpen = ref(false);
 </script>
 
 <template>
-  <div class="fixed p-3 w-screen flex flex-row z-10">
-    <div
-      class="ms-auto rounded-lg px-2 animate__animated w-max hidden md:flex animate__fadeInDownBig shadow-lg bg-white dark:bg-gray-900 flex-row items-center"
-    >
+  <div class="fixed w-screen flex flex-row z-10 p-5">
+    <div class="hidden lg:flex bg-white dark:bg-gray-900 px-2 py-2 animate__animated animate__fadeInRightBig ms-auto shadow rounded-lg">
       <UHorizontalNavigation :links="links" />
-      <div class="border-s flex items-center">
+      <div class="border-s flex items-center border-gray-500">
         <LanguageSelect class="mx-2"/>
         <ThemeSwitch />
       </div>
     </div>
-
     <UButton
       @click="isOpen = true"
       icon="i-heroicons-bars-3-bottom-left-16-solid"
       size="sm"
       color="primary"
       square
-      class="block md:hidden bg-primary py-3 px-4 animate__animated animate__fadeInRightBig ms-auto shadow-lg"
+      class="block lg:hidden bg-primary py-3 px-4 animate__animated animate__fadeInRightBig ms-auto shadow"
     />
   </div>
-  <div class="d-flex d-sm-none">
+  
+  <div class="flex lg:none">
     <UModal v-model="isOpen" fullscreen>
       <UCard
         :ui="{
