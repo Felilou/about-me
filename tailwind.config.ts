@@ -1,47 +1,24 @@
-export default {
+import type { Config } from 'tailwindcss'
+import defaultTheme from 'tailwindcss/defaultTheme'
+
+export default <Partial<Config>>{
   theme: {
     extend: {
       colors: {
-        customPrimary: {
-          50: "#eef8ff",
-          100: "#d8eeff",
-          200: "#b9e0ff",
-          300: "#89cfff",
-          400: "#52b4ff",
-          500: "#2a91ff",
-          600: "#0d6efd",
-          700: "#0c5ae9",
-          800: "#1149bc",
-          900: "#144194",
-          950: "#11295a",
-        },
-        customGray: {
-          50: "#FFFFFF",
-          100: "#F5F7F9",
-          200: "#DCE2E9",
-          300: "#C3CED9",
-          400: "#AABAC9",
-          500: "#91A6B9",
-          600: "#7891A9",
-          700: "#617D98",
-          800: "#51697F",
-          900: "#415466",
-          950: "#364655",
-        },
-        'blue-ribbon': {
-        '50': '#eef8ff',
-        '100': '#d8eeff',
-        '200': '#b9e0ff',
-        '300': '#89cfff',
-        '400': '#52b4ff',
-        '500': '#2a91ff',
-        '600': '#0d6efd',
-        '700': '#0c5ae9',
-        '800': '#1149bc',
-        '900': '#144194',
-        '950': '#11295a',
-        },
-      },
-    },
-  },
-};
+        green: {
+          50: '#EFFDF5',
+          100: '#D9FBE8',
+          200: '#B3F5D1',
+          300: '#75EDAE',
+          400: '#00DC82',
+          500: '#00C16A',
+          600: '#00A155',
+          700: '#007F45',
+          800: '#016538',
+          900: '#0A5331',
+          950: '#052e16'
+        }
+      }
+    }
+  }
+}

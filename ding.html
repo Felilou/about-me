@@ -1,11 +1,4 @@
-<template>
-  <div class="md:h-[80vh] h-[75vh] flex flex-column items-center justify-start">
-    <h1 class="text-4xl p-2 bg-primary/75 animate__animated animate__fadeInRightBig">Wilkommen</h1>
-  </div>
-  <div>
-    <div class="h-[25vh] md:h-[20vh] bg-gradient-to-b from-transparent to-white dark:to-gray-900 animate__animated animate__fadeInUp"></div>
-    <div class="bg-white text-black dark:bg-gray-900 dark:text-white">
-      <LanguageBox :languageProp="'at'">
+    <LanguageBox :languageProp="'at'">
     <p>
       <strong
         >Herzlich Willkommen bei der Mikroskop-Zahnheilkunde!</strong
@@ -20,6 +13,13 @@
       behandeln. Dadurch habe ich als Ihre Zahnärztin die Möglichkeit
       Wurzelbehandlungen, Füllungen oder auch Hygienebehandlungen ganz
       genau durchzuführen.
+    </p>
+    <p>
+      <img
+        src="/img/20240916-GZ1A8208-1.jpg"
+        alt=""
+        class="w-100 rounded shadow"
+      />
     </p>
     <p>
       Verbesserter Sicht führt zu minimal-invasiven Eingriffen am Zahn.
@@ -54,11 +54,3 @@
     <p>Ravi ajal saate patsientidena minu tööd jälgida videoprillide abil või lõõgastuda ja vaadata oma lemmikfilmi.</p>
     <p>Usaldage kaasaegset tehnoloogiat, mida võimaldab mikroskoobiga ravi meie kliinikus – teie särava naeratuse ja tervise heaks!</p>
   </LanguageBox>
-    </div>
-  </div>
-</template>
-
-<script setup></script>
-
-<style scoped>
-</style>

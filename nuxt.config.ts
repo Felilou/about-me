@@ -2,9 +2,6 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: false },
-  css: [
-    '~/assets/styles/main.scss'
-  ],
   app: {
     head: {
       script: [
@@ -15,8 +12,12 @@ export default defineNuxtConfig({
       ]
     }
   },
+  extends: ['@nuxt/ui-pro'],
   modules: ['@nuxt/ui'],
   tailwindcss: {
     configPath: '@/tailwind.config.ts',
+  },
+  colorMode: {
+    preference: 'light'
   }
 })

@@ -1,6 +1,6 @@
 export default defineAppConfig({
     ui: {
-      primary: 'blue-ribbon',
-      gray: 'customGray',
+      primary: 'blue',
+      gray: 'neutral',
     },
   });
