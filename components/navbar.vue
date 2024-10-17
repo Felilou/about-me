@@ -1,18 +1,18 @@
 <script setup lang="ts">
 const links = [
   {
-    label: "Installation",
+    label: "Home",
     icon: "i-heroicons-home",
     to: "/",
   },
   {
-    label: "Horizontal Navigation",
-    icon: "i-heroicons-chart-bar",
+    label: "About me",
+    icon: "i-heroicons-user",
     to: "/about-me",
   },
   {
-    label: "Command Palette",
-    icon: "i-heroicons-command-line",
+    label: "Kontakt",
+    icon: "i-heroicons-phone",
     to: "/contact",
   },
 ];
@@ -30,15 +30,15 @@ const isOpen = ref(false);
     </div>
     <UButton
       @click="isOpen = true"
-      icon="i-heroicons-bars-3-bottom-left-16-solid"
+      icon="i-heroicons-bars-3-solid"
       size="sm"
       color="primary"
       square
-      class="block lg:hidden bg-primary py-3 px-4 animate__animated animate__fadeInRightBig ms-auto shadow"
+      class="block lg:hidden bg-primary animate__animated animate__fadeInRightBig ms-auto shadow pt-3 pb-2 px-4"
     />
   </div>
   
-  <div class="flex lg:none">
+  <div>
     <UModal v-model="isOpen" fullscreen>
       <UCard
         :ui="{

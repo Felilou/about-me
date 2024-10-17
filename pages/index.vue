@@ -1,83 +1,74 @@
 <template>
-  <ContainerWithHeroImg imgUrl="/img/20240916-GZ1A8208-1.jpg">
+  <ContainerWithHeroImg img-url="/img/20240916-GZ1A8208-1.jpg">
     <template #title>
-      <div>
-      <h1 class="text-8xl p-2 bg-primary/75 animate__animated animate__fadeInRightBig relative left-5 w-fit">Herzlich</h1>
-    </div>
-    <div>
-      <h1 class="text-8xl p-2 bg-primary/75 animate__animated animate__fadeInLeftBig relative left-10 w-fit">Wilkommen</h1>
-    </div>      
+      <div class="flex flex-col items-left justify-center h-[100%]">
+        <h1
+          class="text-4xl lg:text-8xl p-2 bg-primary/75 animate__animated animate__fadeInRightBig relative left-5 top-10 w-fit">
+          Herzlich</h1>
+        <h1
+          class="text-4xl lg:text-8xl p-2 bg-primary/75 animate__animated animate__fadeInLeftBig relative left-10 top-12 w-fit">
+          Wilkommen</h1>
+      </div>
     </template>
     <template #content>
       <div class="mx-auto" style="max-width: 1000px;">
         <LanguageBox :languageProp="'at'">
           <p>
-            <strong>Herzlich Willkommen bei der Mikroskop-Zahnheilkunde!</strong>
-            In unserer Ordination werden alle zahnmedizinischen Behandlungen mit
-            dem Mikroskop durchgeführt. Als Patient/in haben sie dadurch
-            zahlreiche Vorteile.
+            Herzlich Willkommen bei der Mikroskop-Zahnheilkunde! In unserer Ordination
+            werden alle zahnmedizinischen Behandlungen mit dem Mikroskop durchgeführt. Als
+            Patient/in haben sie dadurch zahlreiche Vorteile:
           </p>
           <p>
-            Dank der mehrfachen Vergrößerung ermöglicht das Mikroskop, selbst
-            feinste Strukturen im Mundraum präzise zu erkennen und zu behandeln.
-            Dadurch habe ich als Ihre Zahnärztin die Möglichkeit
-            Wurzelbehandlungen, Füllungen oder auch Hygienebehandlungen ganz
-            genau durchzuführen.
+            Dank der mehrfachen Vergrößerung, ermöglicht das Mikroskop, selbst feinste
+            Strukturen im Mundraum präzise zu erkennen und zu behandeln. Dadurch habe ich,
+            als Ihre Zahnärztin, die Möglichkeit, Wurzelkanalbehandlungen, Füllungen oder auch
+            Hygienebehandlungen ganz genau durchzuführen.
           </p>
           <p>
-            Verbesserter Sicht führt zu minimal-invasiven Eingriffen am Zahn.
-            Das bedeutet, es wird nur so wenig Zahnsubtantz entfernt, wie
-            unbedingt notwendig. Darüber hinaus hilft das Mikroskop, mögliche
-            Probleme frühzeitig zu erkennen, was präventive Behandlungen
-            begünstigt und größere Eingriffe oft überflüssig macht.
+            Eine verbesserte Sicht führt zu minimal invasiven Eingriffen am Zahn. Das bedeutet,
+            es wird nur so wenig Zahnsubstanz entfernt, wie unbedingt notwendig. Darüber
+            hinaus hilft das Mikroskop, mögliche Probleme frühzeitig zu erkennen, was
+            präventive Behandlungen begünstigt und größere Eingriffe oft überflüssig macht.
           </p>
           <p>
-            Zudem sorgt das Mikroskop für eine exzellente Arbeits-Qualität. Dies
-            ermöglicht bei jedem Schritt der Behandlung exakt nachzuvollziehen
-            was geschieht, um optimale Ergebnisse zu erreichen. Für Sie bedeutet
-            dies eine langfristig bessere Zahngesundheit und ästhetisch
-            überzeugende Ergebnisse.
+            Zudem sorgt das Mikroskop für eine exzellente Arbeitsqualität. Dies ermöglicht,
+            jeden Schritt der Behandlung exakt nachvollziehen zu können, um optimale
+            Ergebnisse zu erreichen. Für Sie bedeutet dies eine langfristig bessere
+            Zahngesundheit und ästhetisch überzeugende Ergebnisse.
           </p>
           <p>
-            Während der Behandlung können Sie sich als Patient/in ein Bild
-            meiner Arbeit machen und über Videobrille selber mitverfolgen, was
-            gerade mit Ihrem Zahn passiert. Alternativ können Sie sich bei Ihrem
-            Lieblingsfilm entspannen.
+            Während der Behandlung können Sie sich als Patient/in ein Bild meiner Arbeit
+            machen und über eine Videobrille jeden Schritt in Echtzeit mitverfolgen. Alternativ
+            können Sie sich bei Ihrem Lieblingsfilm entspannen.
           </p>
           <p>
-            Vertrauen Sie auf modernste Technik und profitieren Sie von der
-            Behandlung mit dem Mikroskop in unserer Ordination - für Ihr
-            strahlendes Lächeln und Ihre Gesundheit!
+            Vertrauen Sie auf die modernste Technik und profitieren Sie von der Behandlung mit
+            dem Mikroskop in unserer Ordination – für Ihr strahlendes Lächeln und Ihre
+            Gesundheit!
           </p>
         </LanguageBox>
         <LanguageBox :languageProp="'ee'">
+          <h1 class="text-lg fw-bold">Tere tulemast mikroskoobiga hambaravisse!</h1>
           <p>
-            Tere tulemast Dr. Ene Königswieser hambaravisse! Meie kliinikus
-            teostatakse kõik hambaraviteenused mikroskoobi abil, millest on
-            teile, kui patsiendile, mitmeid eeliseid.
+            Meie kliinikus teostatakse kõik hambaraviteenused professionaalse mikroskoobi abil,
+            mis annab teile kui patsiendile, mitmeid eeliseid.
           </p>
           <p>
-            Tänu mitmekordsele suurendusele võimaldab mikroskoop tuvastada ja
-            ravida ka kõige peenemaid struktuure suuõõnes. See annab
-            hambaarstile võimaluse läbi viia kõik protseduurid äärmise
-            täpsusega. Ravi käigus eemaldatakse hambalt ainult nii vähe
-            hambakudet kui hädavajalik. Samuti õnnestub meil avastada võimalikke
-            probleeme varakult, mis soodustab ennetavat ravi ja muudab sageli
-            suuremad sekkumised mittevajalikuks.
+            Tänu mitmekordsele suurendusele võimaldab mikroskoop tuvastada ja ravida ka
+            kõige peenemaid struktuure suuõõnes, mis tagab hambaarstile võimaluse läbi viia
+            kõik protseduurid äärmise täpsusega. Ravi käigus eemaldatakse hambalt ainult nii
+            vähe hambakudet kui hädavajalik. Samuti õnnestub meil avastada võimalikke
+            probleeme eriti varakult, mis soodustab ennetavat ravi ja muudab sageli suuremad
+            sekkumised mittevajalikuks. Teie jaoks tähendab see pikaajaliselt paremat
+            suuhügieeni ja esteetiliselt veenvaid tulemusi.
           </p>
           <p>
-            Mikroskoop tagab ka suurepärase kvaliteedi. See võimaldab igal
-            ravietapil täpselt jälgida, mis toimub, et saavutada parimad
-            tulemused. Teie jaoks tähendab see pikaajaliselt paremat suuhügieeni
-            ja esteetiliselt veenvaid tulemusi.
+            Ravi ajal saate patsiendina minu tööd jälgida videoprillide abil või lõõgastuda ja
+            nautida oma lemmikfilmi.
           </p>
           <p>
-            Ravi ajal saate patsientidena minu tööd jälgida videoprillide abil
-            või lõõgastuda ja vaadata oma lemmikfilmi.
-          </p>
-          <p>
-            Usaldage kaasaegset tehnoloogiat, mida võimaldab mikroskoobiga ravi
-            meie kliinikus – teie särava naeratuse ja tervise heaks!
+            Usaldage kaasaegset tehnoloogiat, mida võimaldab mikroskoobiga ravi meie
+            kliinikus – teie särava naeratuse ja tervise heaks!
           </p>
         </LanguageBox>
       </div>

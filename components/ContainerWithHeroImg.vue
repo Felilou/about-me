@@ -1,7 +1,7 @@
 <template>
   <div>
     <img :src="imgUrl" alt="Background" class="fixed-bg" />
-    <div class="md:h-[80vh] h-[75vh] flex flex-col items-left justify-center">
+    <div class="md:h-[80vh] h-[75vh]">
     <slot name="title"></slot>
   </div>
   <div class="animate__animated animate__fadeInUp">
