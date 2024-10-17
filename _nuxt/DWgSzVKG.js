@@ -1,0 +1,1 @@
+import{_ as n}from"./C63WZx_Q.js";import{_ as r,f as e,w as _,o as c}from"./5rlRCeYK.js";const s={};function a(i,t){const o=n;return c(),e(o,{"img-url":"/img/20240916-GZ1A8344.jpg"},{title:_(()=>t[0]||(t[0]=[])),_:1})}const p=r(s,[["render",a]]);export{p as default};
