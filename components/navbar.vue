@@ -4,16 +4,25 @@ const links = [
     label: "Home",
     icon: "i-heroicons-home",
     to: "/",
+    click: () => {
+      isOpen.value = false;
+    }
   },
   {
     label: "About me",
     icon: "i-heroicons-user",
     to: "/about-me",
+    click: () => {
+      isOpen.value = false;
+    }
   },
   {
     label: "Kontakt",
     icon: "i-heroicons-phone",
     to: "/contact",
+    click: () => {
+      isOpen.value = false;
+    }
   },
 ];
 const isOpen = ref(false);
