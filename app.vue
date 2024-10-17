@@ -1,5 +1,6 @@
 <template>
   <div id="heroImg">
+    <img src="/img/20240916-GZ1A8232-1.jpg" alt="Background" class="fixed-bg" />
     <Navbar />
     <NuxtPage />
     <Footer />
@@ -10,12 +11,22 @@
 @import '/node_modules/animate.css/animate.css';
 
 #heroImg {
-  background-image: url("/img/20240916-GZ1A8232-1.jpg");
   background-size: cover;
   background-position: center top;
   background-attachment: fixed;
 }
 
+.fixed-bg {
+  position: fixed;
+  top: 0;
+  left: 50%; /* Startpunkt in der Mitte des Bildschirms */
+  transform: translateX(-50%); /* zentriert das Bild relativ zum Viewport */
+  width: 100vw; /* Volle Breite des Viewports */
+  height: auto; /* Proportionen des Bildes werden beibehalten */
+  min-height: 100vh; /* Mindestens die Höhe des Viewports */
+  z-index: -1; /* Hinter dem Inhalt */
+  object-fit: cover; /* Das Bild passt sich der Größe an */
+}
 
 </style>
 
