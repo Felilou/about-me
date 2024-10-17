@@ -1,11 +1,17 @@
 <template>
-  <div class="md:h-[80vh] h-[75vh] flex flex-column items-center justify-start">
-    <h1 class="text-4xl p-2 bg-primary/75 animate__animated animate__fadeInRightBig">Wilkommen</h1>
+  <div class="md:h-[80vh] h-[75vh] flex flex-col items-left justify-center">
+    <div>
+      <h1 class="text-8xl p-2 bg-primary/75 animate__animated animate__fadeInRightBig relative left-5 w-fit">Herzlich</h1><br>
+    </div>
+    <div>
+      <h1 class="text-8xl p-2 bg-primary/75 animate__animated animate__fadeInLeftBig relative left-10 w-fit">Wilkommen</h1>
+    </div>
   </div>
-  <div>
-    <div class="h-[25vh] md:h-[20vh] bg-gradient-to-b from-transparent to-white dark:to-gray-900 animate__animated animate__fadeInUp"></div>
+  <div class="animate__animated animate__fadeInUp">
+    <div class="h-[20vh] md:h-[15vh] bg-gradient-to-b from-transparent to-white dark:to-gray-900"></div>
     <div class="bg-white text-black dark:bg-gray-900 dark:text-white">
-      <LanguageBox :languageProp="'at'">
+      <div class="mx-auto py-5" style="max-width: 1000px;">
+        <LanguageBox :languageProp="'at'">
     <p>
       <strong
         >Herzlich Willkommen bei der Mikroskop-Zahnheilkunde!</strong
@@ -54,6 +60,7 @@
     <p>Ravi ajal saate patsientidena minu tööd jälgida videoprillide abil või lõõgastuda ja vaadata oma lemmikfilmi.</p>
     <p>Usaldage kaasaegset tehnoloogiat, mida võimaldab mikroskoobiga ravi meie kliinikus – teie särava naeratuse ja tervise heaks!</p>
   </LanguageBox>
+      </div>
     </div>
   </div>
 </template>

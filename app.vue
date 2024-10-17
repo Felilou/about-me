@@ -10,11 +10,7 @@
 <style>
 @import '/node_modules/animate.css/animate.css';
 
-#heroImg {
-  background-size: cover;
-  background-position: center top;
-  background-attachment: fixed;
-}
+
 
 .fixed-bg {
   position: fixed;
