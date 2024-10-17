@@ -1,1 +1,0 @@
-import{i as t,g as n,o,c as s,r as u,h as c}from"./C_hjUFd2.js";const g={key:0},i={__name:"languageBox",props:{languageProp:{type:String,required:!0}},setup(e){const a=t("language");return(r,l)=>n(a)===e.languageProp?(o(),s("div",g,[u(r.$slots,"default")])):c("",!0)}};export{i as _};
