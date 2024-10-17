@@ -26,8 +26,7 @@ const isOpen = ref(false);
     >
       <UHorizontalNavigation :links="links" />
       <div class="border-s flex items-center">
-        <UColorModeToggle class="mx-2" />
-        <LanguageSelect />
+        <LanguageSelect class="ms-2"/>
       </div>
     </div>
 
@@ -70,7 +69,6 @@ const isOpen = ref(false);
         </template>
         <div class="h-full">
           <UVerticalNavigation :links="links" />
-          <UColorModeToggle />
         </div>
       </UCard>
     </UModal>
