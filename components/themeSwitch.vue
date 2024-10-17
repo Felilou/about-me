@@ -1,7 +1,7 @@
 <template>
   <UToggle
-    on-icon="i-heroicons-sun-solid"
-    off-icon="i-heroicons-moon-solid"
+    on-icon="i-heroicons-moon-solid"
+    off-icon="i-heroicons-sun-solid"
     size="xl"
     v-model="isDark"
     @change="debugTheme()"
@@ -23,6 +23,7 @@ onMounted(() => {
 });
 
 function debugTheme() {
+  useColorMode().preference = isDark.value ? "dark" : "ligth";
   document.body.dataset.bsTheme = isDark.value ? "dark" : "ligth";
   localStorage.setItem("theme", isDark.value ? "dark" : "ligth");
 }

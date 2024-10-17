@@ -10,8 +10,12 @@
 <style>
 @import '/node_modules/animate.css/animate.css';
 
+p{
+  padding-bottom: 0.5rem;
+}
+</style>
 
-
+<style scoped>
 .fixed-bg {
   position: fixed;
   top: 0;
@@ -23,7 +27,6 @@
   z-index: -1; /* Hinter dem Inhalt */
   object-fit: cover; /* Das Bild passt sich der Größe an */
 }
-
 </style>
 
 <script setup>

@@ -26,7 +26,8 @@ const isOpen = ref(false);
     >
       <UHorizontalNavigation :links="links" />
       <div class="border-s flex items-center">
-        <LanguageSelect class="ms-2"/>
+        <LanguageSelect class="mx-2"/>
+        <ThemeSwitch />
       </div>
     </div>
 
@@ -69,6 +70,7 @@ const isOpen = ref(false);
         </template>
         <div class="h-full">
           <UVerticalNavigation :links="links" />
+          <ThemeSwitch />
         </div>
       </UCard>
     </UModal>
