@@ -1,5 +1,5 @@
 <template>
-  <ContainerWithHeroImg img-url="/img/20240916-GZ1A8208-1.jpg">
+  <ContainerWithHeroImg img-url="/img/20240916-GZ1A8232-1.jpg">
     <template #title>
       <div class="flex flex-col items-left justify-center h-[100%]">
         <h1

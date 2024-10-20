@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img :src="imgUrl" alt="Background" class="fixed-bg" />
+    <div class="fixed-bg" :style="'background-image: url('+ imgUrl +')'"></div>
     <div class="md:h-[80vh] h-[75vh]">
     <slot name="title"></slot>
   </div>
@@ -14,6 +14,8 @@
 </template>
 
 <script lang="ts" setup>
+import { _backgroundImage } from '#tailwind-config/theme';
+
 const props = defineProps({
   imgUrl: {
     type: String,
@@ -21,17 +23,19 @@ const props = defineProps({
     default: '',
   }
 })
+
+onMounted(() => {
+  console.log(props.imgUrl)
+})
 </script>
 
 <style scoped>
 .fixed-bg {
+  background-position: 40% 0%;
+  background-size: cover;
   position: fixed;
-  top: 0;
-  left: 50%;
   width: 100%;
   height: auto;
-  transform: translateX(-50%);
   z-index: -1;
-  object-fit: cover;
 }
 </style>
