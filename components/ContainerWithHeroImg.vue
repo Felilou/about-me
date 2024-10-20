@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="fixed-bg" :style="'background-image: url('+ imgUrl +')'"></div>
-    <div class="md:h-[80vh] h-[75vh]">
+    <div class="md:h-[60vh] h-[60vh]">
     <slot name="title"></slot>
   </div>
   <div class="animate__animated animate__fadeInUp">
@@ -31,7 +31,7 @@ onMounted(() => {
 
 <style scoped>
 .fixed-bg {
-  background-position: 40% 20%;
+  background-position: 30% 30%;
   background-size: cover;
   position: fixed;
   width: 100%;

@@ -11,6 +11,10 @@ p{
   padding-bottom: 0.5rem;
 }
 
+* {
+  font-size: large;
+}
+
 .fixed-bg {
   position: fixed;
   top: 0;
