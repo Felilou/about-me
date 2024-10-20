@@ -1,16 +1,7 @@
 <template>
     <ContainerWithHeroImg img-url="/img/20240916-GZ1A8139.jpg">
         <template #title>
-            <div class="flex flex-col justify-center h-[100%]">
-                <div class="self-end">
-                    <h1
-                        class="text-4xl lg:text-8xl p-2 bg-primary/75 animate__animated self-center animate__fadeInLeftBig relative right-20 top-10 w-fit text-white dark:text-black">
-                        Ene</h1>
-                    <h1
-                        class="text-4xl lg:text-8xl p-2 bg-primary/75 animate__animated self-center animate__fadeInRightBig relative right-10 top-12 w-fit text-white dark:text-black">
-                        Königswieser</h1>
-                </div>
-            </div>
+            
         </template>
         <template #content>
             <div class="mx-auto" style="max-width: 1000px;">
@@ -39,6 +30,10 @@
                         ich verschiedene Sportarten und genieße als gebürtige Nordländerin das
                         Eisschwimmen.
                     </p>
+                    <p>
+                        <img src="/img/20240916-GZ1A8109.jpg" alt="" class="rounded">
+                    </p>
+                    
                 </LanguageBox>
                 <LanguageBox :languageProp="'ee'">
                     <p>

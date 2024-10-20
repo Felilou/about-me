@@ -1,14 +1,16 @@
 <template>
-  <ContainerWithHeroImg img-url="/img/20240916-GZ1A8232-1.jpg">
+  <ContainerWithHeroImg img-url="/img/20240916-GZ1A8300-1.jpg">
     <template #title>
-      <div class="flex flex-col items-left justify-center h-[100%]">
-        <h1
-          class="text-4xl lg:text-8xl p-2 bg-primary/75 animate__animated animate__fadeInRightBig relative left-5 top-10 w-fit text-white dark:text-black">
-          Herzlich</h1>
-        <h1
-          class="text-4xl lg:text-8xl p-2 bg-primary/75 animate__animated animate__fadeInLeftBig relative left-10 top-12 w-fit text-white dark:text-black">
-          Wilkommen</h1>
-      </div>
+      <div class="flex flex-col justify-center h-[100%]">
+                <div class="self-end">
+                    <h1
+                        class="text-4xl lg:text-8xl p-2 bg-primary/75 animate__animated self-center animate__fadeInLeftBig relative right-20 top-10 w-fit text-white dark:text-black">
+                        Herzlich</h1>
+                    <h1
+                        class="text-4xl lg:text-8xl p-2 bg-primary/75 animate__animated self-center animate__fadeInRightBig relative right-10 top-12 w-fit text-white dark:text-black">
+                        Willkommen</h1>
+                </div>
+            </div>
     </template>
     <template #content>
       <div class="mx-auto" style="max-width: 1000px;">

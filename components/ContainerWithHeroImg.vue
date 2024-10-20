@@ -31,7 +31,7 @@ onMounted(() => {
 
 <style scoped>
 .fixed-bg {
-  background-position: 40% 0%;
+  background-position: 40% 20%;
   background-size: cover;
   position: fixed;
   width: 100%;
