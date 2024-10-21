@@ -72,6 +72,11 @@ h6 {
   margin-right: 0;
   font-weight: bold;
 }
+
+p {
+  margin-bottom: 2em;
+}
+
 </style>
 
 <script setup>
