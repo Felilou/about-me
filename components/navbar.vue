@@ -30,11 +30,10 @@ const isOpen = ref(false);
 
 <template>
   <div class="fixed w-screen flex flex-row z-10 p-5">
-    <div class="hidden lg:flex bg-white dark:bg-gray-900 px-2 py-2 animate__animated animate__fadeInDownBig ms-auto shadow rounded-lg">
-      <UHorizontalNavigation :links="links" />
-      <div class="border-s flex items-center border-gray-500">
+    <div class="hidden lg:flex bg-white dark:bg-gray-900 animate__animated animate__fadeInDownBig ms-auto shadow rounded-lg">
+      <UHorizontalNavigation :links="links" class="px-2"/>
+      <div class="border-s flex items-center border-gray-500 pe-2">
         <LanguageSelect class="mx-2"/>
-        <ThemeSwitch />
       </div>
     </div>
     <UButton
@@ -43,7 +42,7 @@ const isOpen = ref(false);
       size="sm"
       color="primary"
       square
-      class="block lg:hidden bg-primary animate__animated animate__fadeInDownBig ms-auto shadow pt-3 pb-2 px-4"
+      class="block lg:hidden bg-primary animate__animated animate__fadeInDownBig ms-auto shadow pt-3 pb-2 px-4 border border-primary-700"
     />
   </div>
   
@@ -77,7 +76,7 @@ const isOpen = ref(false);
         </template>
         <div class="h-full">
           <UVerticalNavigation :links="links" />
-          <ThemeSwitch />
+          <LanguageSelect />
         </div>
       </UCard>
     </UModal>

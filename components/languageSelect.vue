@@ -28,7 +28,7 @@ const items = [
   ],
 ];
 onMounted(() => {
-  if(language == "ee"){
+  if(language.value == "ee"){
     mainLabel.value = "Estonian";
     mainIcon.value = "i-flagpack-ee";
   }

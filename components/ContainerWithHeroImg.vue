@@ -14,7 +14,6 @@
 </template>
 
 <script lang="ts" setup>
-import { _backgroundImage } from '#tailwind-config/theme';
 
 const props = defineProps({
   imgUrl: {
@@ -24,18 +23,4 @@ const props = defineProps({
   }
 })
 
-onMounted(() => {
-  console.log(props.imgUrl)
-})
 </script>
-
-<style scoped>
-.fixed-bg {
-  background-position: 30% 30%;
-  background-size: cover;
-  position: fixed;
-  width: 100%;
-  height: auto;
-  z-index: -1;
-}
-</style>

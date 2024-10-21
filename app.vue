@@ -1,65 +1,80 @@
 <template>
-    <Navbar />
-    <NuxtPage />
-    <Footer />
+  <Navbar />
+  <NuxtPage />
+  <Footer />
 </template>
 
 <style>
 @import '/node_modules/animate.css/animate.css';
-
-p{
-  padding-bottom: 0.5rem;
-}
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
 
 * {
-  font-size: large;
+  font-family: "Forum", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.fixed-bg {
-  position: fixed;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100vw;
-  height: auto;
-  min-height: 100vh;
-  z-index: -1;
-  object-fit: cover;
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
 }
-</style>
 
-<style scoped>
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
 
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+h4 {
+  display: block;
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+h5 {
+  display: block;
+  font-size: .83em;
+  margin-top: 1.67em;
+  margin-bottom: 1.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+h6 {
+  display: block;
+  font-size: .67em;
+  margin-top: 2.33em;
+  margin-bottom: 2.33em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
 </style>
 
 <script setup>
 const language = ref("at");
-const isDark = ref(false);
-
 const provideLanguage = provide("language", language);
-const provideIsDark = provide("isDark", isDark);
-
-onMounted(() => {
-  setUpColorTheme();
-});
-
-watch(isDark, (newIsDark) => {
-  debugTheme();
-})
-  
-
-function setUpColorTheme(){
-  isDark.value = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
-  if (localStorage.getItem("theme")) {
-    isDark.value = localStorage.getItem("theme") === "dark";
-  }
-  debugTheme();
-}
-
-
-function debugTheme() {
-  const theme = isDark.value ? "dark" : "ligth";
-  useColorMode().preference = theme;
-  localStorage.setItem("theme", theme);
-}
 </script>
