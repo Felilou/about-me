@@ -55,7 +55,7 @@ p {
 }
 
 .fixed-bg {
-  background-position: center;
+  background-position: 25% top;
   background-size: cover;
 }
 </style>
