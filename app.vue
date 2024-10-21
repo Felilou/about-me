@@ -8,7 +8,7 @@
 @import '/node_modules/animate.css/animate.css';
 @import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
 
-* {
+.text-fancy {
   font-family: "Forum", serif;
   font-weight: 400;
   font-style: normal;
@@ -77,4 +77,9 @@ h6 {
 <script setup>
 const language = ref("at");
 const provideLanguage = provide("language", language);
+
+onMounted(() => {
+  useColorMode().preference = 'light';
+  console.log(useColorMode())
+})
 </script>
