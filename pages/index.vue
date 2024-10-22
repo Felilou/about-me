@@ -37,7 +37,7 @@
             entspannen.</p>
         </div>
       </div>
-      <h3 class="text-center mt-3 border-b pb-2 border-primary-200">Vertrauen Sie auf modernste Technik und profitieren Sie von der Behandlung mit dem
+      <h3 class="text-center">Vertrauen Sie auf modernste Technik und profitieren Sie von der Behandlung mit dem
         Mikroskop in unserer Ordination – für Ihr strahlendes Lächeln und Ihre Gesundheit!</h3>
     </UContainer>
   </div>
