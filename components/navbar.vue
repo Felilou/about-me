@@ -1,8 +1,8 @@
 <script setup lang="ts">
 const links = [
   {
-    label: "Home",
-    icon: "i-heroicons-home",
+    label: "",
+    icon: "i-heroicons-home-16-solid",
     to: "/",
     click: () => {
       isOpen.value = false;
@@ -10,7 +10,7 @@ const links = [
   },
   {
     label: "About me",
-    icon: "i-heroicons-user",
+    icon: "i-heroicons-user-solid",
     to: "/about-me",
     click: () => {
       isOpen.value = false;
@@ -18,7 +18,7 @@ const links = [
   },
   {
     label: "Kontakt",
-    icon: "i-heroicons-phone",
+    icon: "i-heroicons-phone-16-solid",
     to: "/contact",
     click: () => {
       isOpen.value = false;
@@ -74,11 +74,18 @@ const isOpen = ref(false);
             />
           </div>
         </template>
-        <div class="h-full">
-          <UVerticalNavigation :links="links" />
+        <div class="h-full big">
+          <UVerticalNavigation :links="links"/>
+          <UDivider icon="i-heriocons-gear"/>
           <LanguageSelect />
         </div>
       </UCard>
     </UModal>
   </div>
 </template>
+
+<style scoped>
+.big * {
+  font-size: large;
+}
+</style>

@@ -14,9 +14,6 @@
     <div>
       <ExternalLinks />
     </div>
-    <div>
-      Lesen sie mehr <a href="" class="text-primary underline">hier</a>
-    </div>
   </div>
 </template>
 

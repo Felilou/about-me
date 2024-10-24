@@ -25,12 +25,28 @@ const items = [
         mainIcon.value = "i-flagpack-at"
       },
     },
+    {
+      label: "Russian",
+      icon: "i-flagpack-ru",
+      shortcuts: ["EE"],
+      click: () => {
+        console.log("Changing language to ru");
+        language.value = "ru";
+        mainLabel.value = "Russian"
+        mainIcon.value = "i-flagpack-ru"
+      },
+    },
   ],
 ];
+
 onMounted(() => {
   if(language.value == "ee"){
     mainLabel.value = "Estonian";
     mainIcon.value = "i-flagpack-ee";
+  }
+  else if(language.value == "ru"){
+    mainLabel.value = "Russian";
+    mainIcon.value = "i-flagpack-ru";
   }
 })
 </script>
