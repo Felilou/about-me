@@ -1,1 +1,0 @@
-import{p as c,_ as s,c as t,o as e}from"./BDJODspU.js";const o=c("/img/20240916-GZ1A8344.jpg"),n={},r={src:o,alt:"Background",class:"fixed-bg"};function a(_,i){return e(),t("img",r)}const f=s(n,[["render",a]]);export{f as default};
