@@ -7,6 +7,8 @@
       <h1 class="sm:text-7xl m-0 text-5xl text-white p-2 text-fancy">
         <LanguageBox language-prop="at">Herzlich willkommen</LanguageBox>
         <LanguageBox language-prop="ee">Südamlikult teretulnud</LanguageBox>
+        <LanguageBox language-prop="ru">Добро пожаловать</LanguageBox>
+        <LanguageBox language-prop="en">Welcome</LanguageBox>
       </h1>
     </div>
   </div>
@@ -22,6 +24,8 @@
           Meie kliinikus teostatakse kõik hambaraviteenused professionaalse mikroskoobi abil,
           mis annab teile kui patsiendile, mitmeid eeliseid.</p>
       </LanguageBox>
+      <LanguageBox language-prop="ru"></LanguageBox>
+      <LanguageBox language-prop="en"></LanguageBox>
       <div class="md:flex shadow rounded p-2 min-h-[25em] bg-gray-100 mb-[3em]">
         <div class="md:w-[50%] md:px-2">
           <LanguageBox language-prop="at">
@@ -42,6 +46,8 @@
               kõik protseduurid äärmise täpsusega. Ravi käigus eemaldatakse hambalt ainult nii
               vähe hambakudet kui hädavajalik.</p>
           </LanguageBox>
+          <LanguageBox language-prop="ru"></LanguageBox>
+          <LanguageBox language-prop="en"></LanguageBox>
         </div>
         <img src="/img/20240916-GZ1A8109.jpg" alt="" class="md:w-[50%] border border-gray-200 p-2 object-cover">
       </div>
@@ -69,6 +75,8 @@
             <p>Ravi ajal saate patsiendina minu tööd jälgida videoprillide abil või lõõgastuda ja
               nautida oma lemmikfilmi.</p>
           </LanguageBox>
+          <LanguageBox language-prop="ru"></LanguageBox>
+          <LanguageBox language-prop="en"></LanguageBox>
         </div>
       </div>
       <LanguageBox language-prop="at">
@@ -79,15 +87,14 @@
         <h3 class="text-center">Usaldage kaasaegset tehnoloogiat, mida võimaldab mikroskoobiga ravi meie
           kliinikus – teie särava naeratuse ja tervise heaks!</h3>
       </LanguageBox>
+      <LanguageBox language-prop="ru"></LanguageBox>
+      <LanguageBox language-prop="en"></LanguageBox>
     </UContainer>
   </div>
   <Footer />
 </template>
 
 <script setup>
-
-
-
 </script>
 
 <style scoped>
