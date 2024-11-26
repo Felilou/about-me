@@ -23,19 +23,19 @@ const daysAT = [{
 }]
 
 const daysEE =  [{
-  Tag: 'montagE',
+  Tag: 'Esmaspäev',
   Zeit: '15:00 - 18:00'
 }, {
   Tag: 'dienstagE',
-  Zeit: '15:00 - 18:00'
+  Zeit: '15:00 - 18:01'
 },{
   Tag: 'mittwochE',
-  Zeit: '15:00 - 18:00'
+  Zeit: '15:00 - 18:20'
 },{
   Tag: 'donnerstagE',
-  Zeit: '15:00 - 18:00'
+  Zeit: '15:00 - 18:10'
 },{
-  Tag: 'freitagE',
+  Tag: 'Reede',
   Zeit: '15:00 - 18:00'
 },{
   Tag: 'samstagE',
@@ -44,6 +44,11 @@ const daysEE =  [{
   Tag: 'sonntagE',
   Zeit: 'GeschlossenE'
 }]
+
+//Пятница = Freitag
+//Понедельник = montag
+//Kontakt = контакт
+
 </script>
 
 <template>

@@ -1,12 +1,12 @@
 <template>
   <div
-    class="fixed-bg fixed w-screen h-screen -z-10 lg:bg-[url('/img/20240916-GZ1A8208.jpg')] bg-[url('/img/20240916-GZ1A8300-1.jpg')] ">
+    class="fixed-bg fixed w-screen h-screen -z-10 lg:bg-[url('/img/20240916-GZ1A8300-1.jpg')] bg-[url('/img/20240916-GZ1A8300-1.jpg')] ">
   </div>
   <div class="h-[75vh] flex flex-col justify-end items-center">
     <div class="relative top-5 bg-primary">
       <h1 class="sm:text-7xl m-0 text-5xl text-white p-2 text-fancy">
         <LanguageBox language-prop="at">Herzlich willkommen</LanguageBox>
-        <LanguageBox language-prop="ee">Südamlikult teretulnud</LanguageBox>
+        <LanguageBox language-prop="ee">Tere tulemast</LanguageBox>
         <LanguageBox language-prop="ru">Добро пожаловать</LanguageBox>
         <LanguageBox language-prop="en">Welcome</LanguageBox>
       </h1>
@@ -49,10 +49,10 @@
           <LanguageBox language-prop="ru"></LanguageBox>
           <LanguageBox language-prop="en"></LanguageBox>
         </div>
-        <img src="/img/20240916-GZ1A8109.jpg" alt="" class="md:w-[50%] border border-gray-200 p-2 object-cover">
+        <img src="/img/20240916-GZ1A8345.jpg" alt="" class="md:w-[50%] border border-gray-200 p-2 object-cover format">
       </div>
       <div class="md:flex shadow rounded p-2 min-h-[25em] bg-gray-100 mb-[3em]">
-        <img src="/img/20240916-GZ1A8139.jpg" alt="" class="md:w-[50%] border border-gray-200 p-2 object-cover">
+        <img src="/img/20240916-GZ1A8208-1.jpg" alt="" class="md:w-[50%] border border-gray-200 p-2 object-cover format">
         <div class="md:w-[50%] md:px-2">
           <LanguageBox language-prop="at">
             <h3>Videobrille</h3>
@@ -79,6 +79,12 @@
           <LanguageBox language-prop="en"></LanguageBox>
         </div>
       </div>
+      <div class="bg-gray-100 mb-[3em] p-2 shadow rounded">
+        <LanguageBox language-prop="at" class="flex items-center"><strong class="me-auto">Ich biete auch Mundhygiene</strong> <ULink class="bg-primary text-white py-1 px-2 rounded hover:bg-primary-600">Termin Buchen</ULink></LanguageBox>
+        <LanguageBox language-prop="ee"></LanguageBox>
+        <LanguageBox language-prop="ru"></LanguageBox>
+        <LanguageBox language-prop="en"></LanguageBox>
+      </div>
       <LanguageBox language-prop="at">
         <h3 class="text-center">Vertrauen Sie auf modernste Technik und profitieren Sie von der Behandlung mit dem
           Mikroskop in unserer Ordination – für Ihr strahlendes Lächeln und Ihre Gesundheit!</h3>
@@ -98,12 +104,18 @@
 </script>
 
 <style scoped>
+.format {
+  aspect-ratio: 16/9;
+}
+
+
 p {
   font-size: large;
 }
 
 .fixed-bg {
-  background-position: 25% top;
   background-size: cover;
+  background-position-x: center;
+  background-position-y: 30%;
 }
 </style>

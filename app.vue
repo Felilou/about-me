@@ -5,10 +5,13 @@
 
 <style>
 @import '/node_modules/animate.css/animate.css';
-@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+@font-face {
+  font-family: Modernist;
+  src: url('/public/fonts/Sk-Modernist-Regular.otf');
+}
 
 .text-fancy {
-  font-family: "Forum", serif;
+  font-family: Modernist, serif;
   font-weight: 400;
   font-style: normal;
 }
