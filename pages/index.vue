@@ -4,7 +4,7 @@
   </div>
   <div class="h-[80vh] flex flex-col justify-end items-center">
     <div class="relative top-5 bg-primary">
-      <h1 class="sm:text-7xl m-0 text-5xl text-white p-2 text-fancy">
+      <h1 class="sm:text-7xl m-0 text-5xl text-white p-1 text-fancy">
         <img src="/img/image.png" alt="" class="w-[600px]">
       </h1>
     </div>
