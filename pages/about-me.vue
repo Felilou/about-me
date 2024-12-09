@@ -2,8 +2,9 @@
     <div class="fixed-bg fixed w-screen h-screen -z-10 bg-[url('/img/20240916-GZ1A8139.jpg')] ">
     </div>
     <div class="h-[75vh] flex justify-center items-end">
-        <h1 class="bg-primary text-white p-3 sm:text-7xl m-0 text-5xl top-5 relative text-fancy z-10">Dr. Ene
-            Königswieser</h1>
+        <h1 class="bg-primary text-white p-2 sm:text-7xl m-0 text-5xl top-5 relative text-fancy z-10">
+            <img src="/img/image.png" alt="" class="w-[600px]">
+        </h1>
     </div>
     <div class="bg-white border-t border-primary pt-6 p-2">
         <UContainer class="max-w-[800px] mx-auto ">

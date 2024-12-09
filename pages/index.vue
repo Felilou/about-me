@@ -2,13 +2,10 @@
   <div
     class="fixed-bg fixed w-screen h-screen -z-10 lg:bg-[url('/img/20240916-GZ1A8300-1.jpg')] bg-[url('/img/20240916-GZ1A8300-1.jpg')] ">
   </div>
-  <div class="h-[75vh] flex flex-col justify-end items-center">
+  <div class="h-[80vh] flex flex-col justify-end items-center">
     <div class="relative top-5 bg-primary">
       <h1 class="sm:text-7xl m-0 text-5xl text-white p-2 text-fancy">
-        <LanguageBox language-prop="at">Herzlich willkommen</LanguageBox>
-        <LanguageBox language-prop="ee">Tere tulemast</LanguageBox>
-        <LanguageBox language-prop="ru">Добро пожаловать</LanguageBox>
-        <LanguageBox language-prop="en">Welcome</LanguageBox>
+        <img src="/img/image.png" alt="" class="w-[600px]">
       </h1>
     </div>
   </div>
