@@ -1,50 +1,23 @@
 <script setup lang="ts">
 const daysAT = [{
-  Tag: 'montag',
-  Zeit: '15:00 - 18:00'
-}, {
-  Tag: 'dienstag',
-  Zeit: '15:00 - 18:00'
-},{
-  Tag: 'mittwoch',
-  Zeit: '15:00 - 18:00'
-},{
-  Tag: 'donnerstag',
-  Zeit: '15:00 - 18:00'
-},{
-  Tag: 'freitag',
-  Zeit: '15:00 - 18:00'
-},{
-  Tag: 'samstag',
-  Zeit: '15:00 - 18:00'
-},{
-  Tag: 'sonntag',
-  Zeit: 'Geschlossen'
+  Tag: 'Montag - Freitag',
+  Zeit: '14:00 - 18:00'
 }]
 
 const daysEE =  [{
-  Tag: 'Esmaspäev',
-  Zeit: '15:00 - 18:00'
-}, {
-  Tag: 'dienstagE',
-  Zeit: '15:00 - 18:01'
-},{
-  Tag: 'mittwochE',
-  Zeit: '15:00 - 18:20'
-},{
-  Tag: 'donnerstagE',
-  Zeit: '15:00 - 18:10'
-},{
-  Tag: 'Reede',
-  Zeit: '15:00 - 18:00'
-},{
-  Tag: 'samstagE',
-  Zeit: '15:00 - 18:00'
-},{
-  Tag: 'sonntagE',
-  Zeit: 'GeschlossenE'
+  päeval: 'esmaspäev - reede',
+  Aeg: '14:00 - 18:00'
 }]
 
+const daysRU = [{
+  день: 'понедельник - пятница',
+  Время: '14:00 - 18:00'
+}]
+
+const daysEN = [{
+  Day: 'Monday - Friday',
+  Time: '14:00 - 18:00'
+}]
 //Пятница = Freitag
 //Понедельник = montag
 //Kontakt = контакт
@@ -58,7 +31,13 @@ const daysEE =  [{
         Öffnungszeiten
       </LanguageBox>
       <LanguageBox language-prop="ee">
-        Lahtiolekuajad
+        Vastuvõtu ajad
+      </LanguageBox>
+      <LanguageBox language-prop="ru">
+        Часы работы
+      </LanguageBox>
+      <LanguageBox language-prop="en">
+        Opening hours
       </LanguageBox>
     </template>
     <LanguageBox language-prop="at">
@@ -66,6 +45,12 @@ const daysEE =  [{
     </LanguageBox>
     <LanguageBox language-prop="ee">
       <UTable :rows="daysEE"/>
+    </LanguageBox>
+    <LanguageBox language-prop="ru">
+      <UTable :rows="daysRU"/>
+    </LanguageBox>
+    <LanguageBox language-prop="en">
+      <UTable :rows="daysEN"/>
     </LanguageBox>
   </UCard>
 </template>

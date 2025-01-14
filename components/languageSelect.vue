@@ -28,12 +28,23 @@ const items = [
     {
       label: "Russian",
       icon: "i-flagpack-ru",
-      shortcuts: ["EE"],
+      shortcuts: ["RU"],
       click: () => {
         console.log("Changing language to ru");
         language.value = "ru";
         mainLabel.value = "Russian"
         mainIcon.value = "i-flagpack-ru"
+      },
+    },
+    {
+      label: "Englisch",
+      icon: "i-flagpack-gb-ukm",
+      shortcuts: ["EN"],
+      click: () => {
+        console.log("Changing language to en");
+        language.value = "en";
+        mainLabel.value = "Englisch"
+        mainIcon.value = "i-flagpack-gb-ukm"
       },
     },
   ],
@@ -47,6 +58,10 @@ onMounted(() => {
   else if(language.value == "ru"){
     mainLabel.value = "Russian";
     mainIcon.value = "i-flagpack-ru";
+  }
+  else if(language.value == "en"){
+    mainLabel.value = "Englisch";
+    mainIcon.value = "i-flagpack-gb-ukm";
   }
 })
 </script>

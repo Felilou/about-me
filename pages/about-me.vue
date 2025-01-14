@@ -45,11 +45,78 @@
                     inglise, vene ja soome ning pisut ka itaalia keelt, mis annab mulle võimaluse inimesi
                     paremini mõista.
                 </p>
+                <LanguageBox language-prop="ee">
+                    <p>
+                        <UButton to="https://mhk.ee/kartlik-patsient-dr-ene-nagel-konigswieser/">Titel</UButton>
+                    </p>
+                </LanguageBox>
                 <p class="mb-0">
                     Töövabal ajal meeldib mulle pildistada inimesi ja olukordi, et jäädvustada erilisi hetki.
                     Kunagise kunstikooli õpilasena naudin ka joonistamist ja ilu loomist enda ümber.
                     Pean oluliseks enda vormis hoidmist nii füüsiliselt kui vaimselt, mistõttu tegelen
                     mitmete spordialadega ja korraliku põhjamaalasena harrastan ka talisuplust.
+                </p>
+            </LanguageBox>
+            <LanguageBox language-prop="ru">
+                <p>
+                    В своей практике я уделяю особое внимание профилактике, чтобы Ваша улыбка всегда
+                    оставалась сияющей, а зубы
+                    —
+                    здоровыми. Моя главная цель
+                    —
+                    сохранить зубы,
+                    избегая их удаления, и применять самые современные методы лечения. Благодаря
+                    использованию микроскопа, я могу обнаружить даже мельчайшие проблемы на
+                    ранних стадиях и устранить их с максимальной эффективностью и минимальным
+                    вмешательством.
+                </p>
+                <p>
+                    Мой подход основан на высоком профессионализме и чутком взаимодействии с
+                    пациентами. Я создаю
+                    комфортную атмосферу, где каждый чувствует себя уверенно и
+                    спокойно, зная, что находится в надежных руках. Владея несколькими языками
+                    —
+                    эстонским, немецким, русским, английским, а также немного финским и итальянским
+                    —
+                    я легко нахожу общий язык с пациентам
+                    и, учитывая их индивидуальные
+                    особенности и предпочтения.
+                </p>
+                <p>
+                    Вне работы я увлекаюсь искусством и фотографией, что помогает мне развивать
+                    внимание к деталям и привносить чувство гармонии в профессиональную
+                    деятельность. Регулярные занятия спортом, в том числе
+                    зимними видами, помогают
+                    мне поддерживать высокую работоспособность и концентрацию, необходимые для
+                    качественного лечения.
+                </p>
+                <p>
+                    Ваше здоровье и комфорт всегда в центре моего внимания. Я стремлюсь к тому, чтобы
+                    каждый шаг на пути к здоровью зубов проходил для
+                    Вас максимально уверенно и
+                    комфортно.
+                </p>
+            </LanguageBox>
+            <LanguageBox language-prop="en">
+                <p>In my dental practice, I emphasise prevention to keep your teeth healthy. However, if there's
+                    a problem in your mouth that has already developed, my biggest aim is to preserve your
+                    teeth.</p>
+                <p>In a
+                    ddition, I use a microscope to detect and treat even the smallest tooth and gum
+                    problems as early as possible.</p>
+                <p>
+                    I always try to communicate as honestly and empathetically as I can, which has already
+                    helped many of my patients to alleviate even the greatest
+                    fears of dental procedures.
+                </p>
+                <p>Apart from English, I also speak Estonian, German, Russian, Finnish and a little Italian, which
+                    helps me to communicate better with my patients.</p>
+                <p>
+                    In my spare time, I enjoy photography and having studied art, I also like to dra
+                    w and create
+                    beautiful things around me. One of my biggest priorities is to stay fit, both physically and
+                    mentally. That's why I do various sports and, as a native Northerner, I also enjoy ice
+                    swimming.
                 </p>
             </LanguageBox>
         </UContainer>

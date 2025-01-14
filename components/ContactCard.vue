@@ -2,7 +2,7 @@
   <div>
     <UCard>
       <template #header>
-        Kontakt
+        <Icon name="heroicons:phone-16-solid" class="me-2"/>
       </template>
       <div class="flex flex-col">
         <div class="flex items-center">
@@ -14,7 +14,10 @@
         </div>
       </div>
       <template #footer>
-        Bitte beachten Sie, das wir telefonisch nur von bis erreichbar sind.
+        <LanguageBox language-prop="at">Telefonisch sind wir von 8.30 - 18.00 für Sie erreichbar.</LanguageBox>
+        <LanguageBox language-prop="ru">По телефону мы доступны для вас с 8:30 до 18:00.</LanguageBox>
+        <LanguageBox language-prop="ee">Telefo ni teel oleme kättesaadavad 8.30.18.00</LanguageBox>
+        <LanguageBox language-prop="en">You can reach us by phone from 8:30 to 18:00.</LanguageBox>
       </template>
     </UCard>
   </div>
