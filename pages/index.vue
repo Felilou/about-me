@@ -83,7 +83,7 @@
               major interventions unnecessary.</p>
           </LanguageBox>
         </div>
-        <img src="/img/20240916-GZ1A8345.jpg" alt="" class="md:w-[50%] border border-gray-200 p-2 object-cover format">
+        <img src="https://plus.unsplash.com/premium_photo-1730019674816-7449e13d07dc?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="md:w-[50%] border border-gray-200 p-2 object-cover format">
       </div>
       <div class="md:flex shadow rounded p-2 min-h-[25em] bg-gray-100 mb-[3em]">
         <img src="/img/20240916-GZ1A8208-1.jpg" alt=""
