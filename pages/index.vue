@@ -1,11 +1,11 @@
 <template>
   <div
-    class="fixed-bg fixed w-screen h-screen -z-10 lg:bg-[url('/img/20240916-GZ1A8300-1.jpg')] bg-[url('/img/20240916-GZ1A8300-1.jpg')] ">
+    class="fixed-bg fixed w-screen h-screen -z-10 lg:bg-[url('https://raw.githubusercontent.com/Felilou/about-me/refs/heads/build/img/20240916-GZ1A8300-1.jpg')] bg-[url('https://raw.githubusercontent.com/Felilou/about-me/refs/heads/build/img/20240916-GZ1A8300-1.jpg')] ">
   </div>
   <div class="h-[80vh] flex flex-col justify-end items-center">
     <div class="relative top-5 bg-primary">
       <h1 class="sm:text-7xl m-0 text-5xl text-white p-1 text-fancy">
-        <img src="/img/image.png" alt="" class="w-[600px]">
+        <img src="https://raw.githubusercontent.com/Felilou/about-me/refs/heads/build/img/image.png" alt="" class="w-[600px]">
       </h1>
     </div>
   </div>
@@ -83,10 +83,10 @@
               major interventions unnecessary.</p>
           </LanguageBox>
         </div>
-        <img src="/img/20240916-GZ1A8345.jpg" alt="" class="md:w-[50%] border border-gray-200 p-2 object-cover format">
+        <img src="https://raw.githubusercontent.com/Felilou/about-me/refs/heads/build/img/20240916-GZ1A8345.jpg" alt="" class="md:w-[50%] border border-gray-200 p-2 object-cover format">
       </div>
       <div class="md:flex shadow rounded p-2 min-h-[25em] bg-gray-100 mb-[3em]">
-        <img src="/img/20240916-GZ1A8208-1.jpg" alt=""
+        <img src="https://raw.githubusercontent.com/Felilou/about-me/refs/heads/build/img/20240916-GZ1A8208-1.jpg" alt=""
           class="md:w-[50%] border border-gray-200 p-2 object-cover format">
         <div class="md:w-[50%] md:px-2">
           <LanguageBox language-prop="at">

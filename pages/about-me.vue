@@ -1,9 +1,9 @@
 <template>
-    <div class="fixed-bg fixed w-screen h-screen -z-10 bg-[url('/img/20240916-GZ1A8139.jpg')] ">
+    <div class="fixed-bg fixed w-screen h-screen -z-10 bg-[url('https://raw.githubusercontent.com/Felilou/about-me/refs/heads/build/img/20240916-GZ1A8139.jpg')] ">
     </div>
     <div class="h-[75vh] flex justify-center items-end">
         <h1 class="bg-primary text-white p-2 sm:text-7xl m-0 text-5xl top-5 relative text-fancy z-10">
-            <img src="/img/image.png" alt="" class="w-[600px]">
+            <img src="https://raw.githubusercontent.com/Felilou/about-me/refs/heads/build/img/image.png" alt="" class="w-[600px]">
         </h1>
     </div>
     <div class="bg-white border-t border-primary pt-6 p-2">
