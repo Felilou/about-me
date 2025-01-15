@@ -63,7 +63,7 @@ const isOpen = ref(false);
             <h3
               class="text-base font-semibold leading-6 text-gray-900 dark:text-white"
             >
-              Modal
+              Menu
             </h3>
             <UButton
               color="gray"

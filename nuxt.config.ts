@@ -8,5 +8,11 @@ export default defineNuxtConfig({
   },
   colorMode: {
     preference: 'light'
+  },
+  app: {
+    head: {
+      charset: 'utf-8',
+      viewport: 'width=device-width, initial-scale=1',
+    }
   }
 })

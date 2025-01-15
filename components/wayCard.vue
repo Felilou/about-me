@@ -34,10 +34,10 @@
           <Strong>ANREISE:</Strong> Unsere Ordination liegt in unmittelbarer Nähe zum Wiener Hauptbahnhof sowie Schloss Belvedere. Sie erreichen uns bequem mit der U1, den Strassenbahnlinien D / O / 18, den S-Bahn Linien S1/2/3/4, S80 sowie mit Regional- und Fernzügen.
         </LanguageBox>
         <LanguageBox language-prop="ee">
-          <Strong>Kohalejõudmine:</Strong> Meie praksis asub Viini pearaudteejaama ja Belvedere lossi vahetus läheduses. Meieni saab mugavalt metrooliiniga U1, trammiliinidega D / O / 18, linnalähirongidega To Do homepage finished – Kopie.docx S1/2/3/4, S80 ning ka maakonna - ja kaugliinide rongidega.
+          <Strong>Kohalejõudmine:</Strong> Meie praksis asub Viini pearaudteejaama ja Belvedere lossi vahetus läheduses. Meieni saab mugavalt metrooliiniga U1, trammiliinidega D / O / 18, linnalähirongidega S1/2/3/4, S80 ning ka maakonna - ja kaugliinide rongidega.
         </LanguageBox>
         <LanguageBox language-prop="ru">
-          <Strong>Как добраться:</Strong> Наша ординация находится в непосредственной близости от главного To Do homepage finished – Kopie.docx вокзала Вены и дворца Бельведер. До нас легко добраться на метро линии U1, трамвайных линиях D / O / 18, пригородных поездах S1/2/3/4, S80, а также на региональных и междугородних поездах.
+          <Strong>Как добраться:</Strong> Наша ординация находится в непосредственной близости от главного вокзала Вены и дворца Бельведер. До нас легко добраться на метро линии U1, трамвайных линиях D / O / 18, пригородных поездах S1/2/3/4, S80, а также на региональных и междугородних поездах.
         </LanguageBox>
         <LanguageBox language-prop="en">
           <Strong>How to get there:</Strong> Our practice is located in close proximity to Vienna Central Station and Belvedere Palace. You can easily reach us by metro line U1, tram lines D / O / 18, suburban train lines S1/2/3/4, S80, as well as regional and long-distance trains.
