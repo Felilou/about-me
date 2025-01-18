@@ -2,11 +2,20 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: false },
-  modules: ['@nuxt/ui'],
+  modules: ['@nuxt/ui', '@nuxtjs/sitemap', '@nuxtjs/robots'],
   tailwindcss: {
     configPath: '@/tailwind.config.ts',
   },
   colorMode: {
     preference: 'light'
   },
+  site: {
+    url: "https://königswieser.info", 
+    name: 'Dr. Ene Königswieser', 
+    routes: [
+      '/',
+      '/about-me',
+      '/contact'
+    ]
+}
 })
