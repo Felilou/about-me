@@ -16,7 +16,7 @@
       <template #footer>
         <LanguageBox language-prop="at">Telefonisch sind wir von 8.30 - 18.00 für Sie erreichbar.</LanguageBox>
         <LanguageBox language-prop="ru">По телефону мы доступны для вас с 8:30 до 18:00.</LanguageBox>
-        <LanguageBox language-prop="ee">Telefo ni teel oleme kättesaadavad 8.30.18.00</LanguageBox>
+        <LanguageBox language-prop="ee">Telefoni teel oleme kättesaadavad 8.30.18.00</LanguageBox>
         <LanguageBox language-prop="en">You can reach us by phone from 8:30 to 18:00.</LanguageBox>
       </template>
     </UCard>

@@ -47,7 +47,7 @@
                 </p>
                 <LanguageBox language-prop="ee">
                     <p>
-                        <UButton to="https://mhk.ee/kartlik-patsient-dr-ene-nagel-konigswieser/">Titel</UButton>
+                        <UButton to="https://mhk.ee/kartlik-patsient-dr-ene-nagel-konigswieser/">Kartlik patsient</UButton>
                     </p>
                 </LanguageBox>
                 <p class="mb-0">
@@ -101,8 +101,7 @@
                 <p>In my dental practice, I emphasise prevention to keep your teeth healthy. However, if there's
                     a problem in your mouth that has already developed, my biggest aim is to preserve your
                     teeth.</p>
-                <p>In a
-                    ddition, I use a microscope to detect and treat even the smallest tooth and gum
+                <p>In addition, I use a microscope to detect and treat even the smallest tooth and gum
                     problems as early as possible.</p>
                 <p>
                     I always try to communicate as honestly and empathetically as I can, which has already
@@ -112,8 +111,7 @@
                 <p>Apart from English, I also speak Estonian, German, Russian, Finnish and a little Italian, which
                     helps me to communicate better with my patients.</p>
                 <p>
-                    In my spare time, I enjoy photography and having studied art, I also like to dra
-                    w and create
+                    In my spare time, I enjoy photography and having studied art, I also like to draw and create
                     beautiful things around me. One of my biggest priorities is to stay fit, both physically and
                     mentally. That's why I do various sports and, as a native Northerner, I also enjoy ice
                     swimming.

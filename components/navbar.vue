@@ -24,6 +24,14 @@ const links = [
       isOpen.value = false;
     }
   },
+  {
+    label: "Praxis",
+    icon: "i-heroicons-briefcase-16-solid",
+    to: "https://mikroskopzahnarzt.at/praxis/equipment/",
+    click: () => {
+      isOpen.value = false;
+    }
+  },
 ];
 const isOpen = ref(false);
 </script>

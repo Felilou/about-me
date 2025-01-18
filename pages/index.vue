@@ -46,14 +46,14 @@
             </p>
           </LanguageBox>
           <LanguageBox language-prop="ee">
-            <h3>Titel</h3>
+            <h3>Mikroskoop</h3>
             <p>Tänu mitmekordsele suurendusele võimaldab mikroskoop tuvastada ja ravida ka
               kõige peenemaid struktuure suuõõnes, mis tagab hambaarstile võimaluse läbi viia
               kõik protseduurid äärmise täpsusega. Ravi käigus eemaldatakse hambalt ainult nii
               vähe hambakudet kui hädavajalik.</p>
           </LanguageBox>
           <LanguageBox language-prop="ru">
-            <h3>Titel</h3>
+            <h3>Микроскоп</h3>
             <p>
               Мы предлагаем Вам современные стоматологические услуги с применением
               профессионального микроскопа, что предоставляет множес
@@ -76,8 +76,7 @@
               recognize and treat even the finest structures in the oral cavity. This gives me, as your
               dentist, the opportunity to carry out root canal treatments, fillings or even hygiene
               treatments very accurately.</p>
-            <p>Improved visibility leads to minimally invasive de
-              ntal procedures. This means that only as
+            <p>Improved visibility leads to minimally invasive dental procedures. This means that only as
               little tooth substance is removed as necessary. In addition, the microscope helps to detect
               potential problems at an early stage, which favours preventive treatments and often makes
               major interventions unnecessary.</p>
@@ -101,7 +100,7 @@
               entspannen.</p>
           </LanguageBox>
           <LanguageBox language-prop="ee">
-            <h3>Titel</h3>
+            <h3>Videobrillid</h3>
             <p>
               Samuti õnnestub meil avastada võimalikke
               probleeme eriti varakult, mis soodustab ennetavat ravi ja muudab sageli suuremad
@@ -112,7 +111,7 @@
               nautida oma lemmikfilmi.</p>
           </LanguageBox>
           <LanguageBox language-prop="ru">
-            <h3>Titel</h3>
+            <h3>Bидеоочки</h3>
             <p>
               Мы гордимся тем, ч
               то используем самое современное оборудование, чтобы каждое
@@ -138,16 +137,16 @@
       </div>
       <div class="bg-gray-100 mb-[3em] p-2 shadow rounded">
         <LanguageBox language-prop="at" class="flex items-center">Mundhygiene <ULink
-            class="bg-primary text-white py-1 px-2 rounded hover:bg-primary-600 mx-1">hier</ULink> online buchen
+            class="bg-primary text-white py-1 px-2 rounded hover:bg-primary-600 mx-1" to="https://Mundhygiene-zahnarzt.at">hier</ULink> online buchen
         </LanguageBox>
         <LanguageBox language-prop="ee">online puhastuse aja saate broneerida <ULink
-            class="bg-primary text-white py-1 px-2 rounded hover:bg-primary-600 mx-1">siin</ULink>
+            class="bg-primary text-white py-1 px-2 rounded hover:bg-primary-600 mx-1" to="https://Mundhygiene-zahnarzt.at">siin</ULink>
         </LanguageBox>
         <LanguageBox language-prop="ru">Запишитесь на профессиональную гигиену полости рта онлайн <ULink
-            class="bg-primary text-white py-1 px-2 rounded hover:bg-primary-600 mx-1">здесь</ULink>
+            class="bg-primary text-white py-1 px-2 rounded hover:bg-primary-600 mx-1" to="https://Mundhygiene-zahnarzt.at">здесь</ULink>
         </LanguageBox>
         <LanguageBox language-prop="en">Book your dental hygiene appointment online <ULink
-            class="bg-primary text-white py-1 px-2 rounded hover:bg-primary-600 mx-1">here</ULink>
+            class="bg-primary text-white py-1 px-2 rounded hover:bg-primary-600 mx-1" to="https://Mundhygiene-zahnarzt.at">here</ULink>
         </LanguageBox>
       </div>
       <LanguageBox language-prop="at">

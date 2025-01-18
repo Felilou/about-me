@@ -5,7 +5,7 @@ const daysAT = [{
 }]
 
 const daysEE =  [{
-  päeval: 'esmaspäev - reede',
+  Päev: 'esmaspäev - reede',
   Aeg: '14:00 - 18:00'
 }]
 

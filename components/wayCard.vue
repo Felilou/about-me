@@ -9,7 +9,7 @@
           Aadress
         </LanguageBox>
         <LanguageBox language-prop="ru">
-          Адре
+          Адреc
         </LanguageBox>
         <LanguageBox language-prop="en">
           Address
