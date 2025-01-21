@@ -6,7 +6,7 @@
       </template>
       <div class="flex flex-col">
         <div class="flex items-center">
-          <a href="mailto:ene.koenigswieser@mikroskop-zahnarzt.at" class="ms-2 bg-primary rounded px-2 py-1 text-white text-md hover:bg-primary-600 w-full flex items-center"><Icon name="heroicons:envelope-20-solid" class="me-2"/>ene.koenigswieser@mikroskop-zahnarzt.at</a> 
+          <a href="mailto:ene.koenigswieser@mikroskopzahnarzt.at" class="ms-2 bg-primary rounded px-2 py-1 text-white text-md hover:bg-primary-600 w-full flex items-center"><Icon name="heroicons:envelope-20-solid" class="me-2"/>ene.koenigswieser@mikroskopzahnarzt.at</a> 
         </div>
         <UDivider label="-"/>
         <div class="flex items-center">

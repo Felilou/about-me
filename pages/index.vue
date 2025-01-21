@@ -2,13 +2,11 @@
   <div
     class="fixed-bg fixed w-screen h-screen -z-10 lg:bg-[url('https://raw.githubusercontent.com/Felilou/about-me/refs/heads/build/img/20240916-GZ1A8300-1.jpg')] bg-[url('https://raw.githubusercontent.com/Felilou/about-me/refs/heads/build/img/20240916-GZ1A8300-1.jpg')] ">
   </div>
-  <div class="h-[80vh] flex flex-col justify-end items-center">
-    <div class="relative top-5 bg-primary">
-      <h1 class="sm:text-7xl m-0 text-5xl text-white p-1 text-fancy">
-        <img src="https://raw.githubusercontent.com/Felilou/about-me/refs/heads/build/img/image.png" alt="" class="w-[600px]">
-      </h1>
+  <div class="h-[75vh] flex justify-center items-end">
+        <div class="w-full bg-white flex justify-center items-center p-2">
+            <img src="https://raw.githubusercontent.com/Felilou/about-me/refs/heads/build/img/image.png" alt="" class="w-[600px]">
+        </div>
     </div>
-  </div>
   <div class="bg-white border-t border-primary">
     <UContainer class="px-2 py-7 mx-auto max-w-[1500px]">
       <LanguageBox language-prop="at">
