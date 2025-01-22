@@ -123,6 +123,9 @@
 </template>
 
 <script setup>
+useSeoMeta({
+  robots: 'noindex, follow',
+})
 </script>
 
 <style scoped>

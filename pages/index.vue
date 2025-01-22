@@ -2,7 +2,7 @@
   <div
     class="fixed-bg fixed w-screen h-screen -z-10 lg:bg-[url('https://raw.githubusercontent.com/Felilou/about-me/refs/heads/build/img/20240916-GZ1A8300-1.jpg')] bg-[url('https://raw.githubusercontent.com/Felilou/about-me/refs/heads/build/img/20240916-GZ1A8300-1.jpg')] ">
   </div>
-  <div class="h-[75vh] flex justify-center items-end">
+  <div class="h-[85vh] flex justify-center items-end">
         <div class="w-full bg-white flex justify-center items-center p-2">
             <img src="https://raw.githubusercontent.com/Felilou/about-me/refs/heads/build/img/image.png" alt="" class="w-[600px]">
         </div>
@@ -172,9 +172,10 @@
 </template>
 
 <script setup>
+
 useSeoMeta({
-  title: 'Ene Königswieser | Mikroskop - Zahnarztpraxis',
-  ogTitle: 'Ene Königswieser | Mikroskop - Zahnarztpraxis',
+  title: 'Dr. Ene Königswieser | Mikroskop - Zahnarztpraxis',
+  ogTitle: 'Dr. Ene Königswieser | Mikroskop - Zahnarztpraxis',
   description: 'Dr.Ene Königswieser. Präzise Zahnbehandlung mit langanhaltenden Ergebnissen, in freundlicher Athmosphäre.',
   ogDescription: 'Dr.Ene Königswieser. Präzise Zahnbehandlung mit langanhaltenden Ergebnissen, in freundlicher Athmosphäre.',
   ogImage: 'https://raw.githubusercontent.com/Felilou/about-me/refs/heads/build/img/20240916-GZ1A8139.jpg',

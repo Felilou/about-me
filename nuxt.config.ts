@@ -17,5 +17,15 @@ export default defineNuxtConfig({
       '/about-me',
       '/contact'
     ]
-}
+  },
+  app: {
+    head: {
+      link: [
+        {
+          rel: "icon",
+          href: "https://raw.githubusercontent.com/Felilou/about-me/refs/heads/build/favicon.ico"
+        }
+      ]
+    }
+  }
 })

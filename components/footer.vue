@@ -11,6 +11,10 @@
         <WayCard />
       </div>
     </div>
+    <UDivider icon="i-heroicons-information-circle-solid" />
+    <div class="flex flex-row justify-center items-center">
+      <UButton to="/privacy-policy">Datenschutz</UButton>
+    </div>
   </div>
 </template>
 

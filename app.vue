@@ -91,7 +91,7 @@ onMounted(() => {
 })
 
 useSeoMeta({
-  title: 'Ene Königswieser | Mikroskop - Zahnarztpraxis',
+  title: 'Dr. Ene Königswieser | Mikroskop - Zahnarztpraxis',
   ogTitle: 'Ene Königswieser | Mikroskop - Zahnarztpraxis',
   description: 'Dr.Ene Königswieser. Präzise Zahnbehandlung mit langanhaltenden Ergebnissen, in freundlicher Athmosphäre.',
   ogDescription: 'Dr.Ene Königswieser. Präzise Zahnbehandlung mit langanhaltenden Ergebnissen, in freundlicher Athmosphäre.',

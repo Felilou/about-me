@@ -8,6 +8,7 @@
 </template>
 
 <script lang="ts" setup>
+useSeoMeta({robots: 'noindex, follow',})
 </script>
 
 <style scoped>
