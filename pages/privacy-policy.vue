@@ -7,7 +7,7 @@
     <UVerticalNavigation :links="linksP" class="border-b border-gray-200 dark:border-gray-800" />
     
     <h2 id="1">Verantwortliche Stelle</h2>
-    <p>Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist: [Name der verantwortlichen Person oder Firma einfügen]</p>
+    <p>Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist: Ene Königswieser</p>
 
     <h2 id="2">Erfassung und Speicherung personenbezogener Daten</h2>
     <p>Beim Besuch unserer Website werden keine personenbezogenen Daten erhoben, es sei denn, Sie stellen uns diese freiwillig zur Verfügung (z. B. durch eine Kontaktanfrage).</p>
@@ -39,7 +39,7 @@
     <p>Eine Beschwerde bei der zuständigen Datenschutzaufsichtsbehörde einzureichen, wenn Sie der Meinung sind, dass die Verarbeitung Ihrer Daten gegen die DSGVO verstößt.</p>
 
     <h2 id="8">Kontakt</h2>
-    <p>Bei Fragen oder zur Geltendmachung Ihrer Rechte können Sie uns unter folgender E-Mail-Adresse kontaktieren: [E-Mail-Adresse einfügen]</p>
+    <p>Bei Fragen oder zur Geltendmachung Ihrer Rechte können Sie uns unter folgender E-Mail-Adresse kontaktieren: ene.koenigswieser@mikroskopzahnarzt.at</p>
   </UContainer>
   <Footer />
   </div>
