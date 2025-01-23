@@ -4,5 +4,5 @@ Allow: /
 Disallow: /contact
 Disallow: /about-me
 
-Sitemap: https://königswieser.info/sitemap.xml
+Sitemap: http://localhost/sitemap.xml
 # END nuxt-robots
