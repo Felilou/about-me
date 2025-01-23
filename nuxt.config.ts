@@ -9,15 +9,6 @@ export default defineNuxtConfig({
   colorMode: {
     preference: 'light'
   },
-  site: {
-    url: "https://königswieser.info", 
-    name: 'Dr. Ene Königswieser', 
-    routes: [
-      '/',
-      '/about-me',
-      '/contact'
-    ]
-  },
   app: {
     head: {
       link: [

@@ -5,12 +5,12 @@ const daysAT = [{
 }]
 
 const daysEE =  [{
-  Päev: 'esmaspäev - reede',
+  Päev: 'Esmaspäev - Reede',
   Aeg: '14:00 - 18:00'
 }]
 
 const daysRU = [{
-  день: 'понедельник - пятница',
+  день: 'Понедельник - Пятница',
   Время: '14:00 - 18:00'
 }]
 

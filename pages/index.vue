@@ -37,7 +37,7 @@
               zu
               erkennen und zu behandeln. Dadurch habe ich als Ihre Zahnärztin die Möglichkeit Wurzelbehandlungen,
               Füllungen oder auch Hygienebehandlungen ganz genau durchzuführen</p>
-            <p>Verbesserter Sicht führt zu minimal-invasiven Eingriffen am Zahn. Das bedeutet, es wird nur so wenig
+            <p>Verbesserte Sicht führt zu minimal-invasiven Eingriffen am Zahn. Das bedeutet, es wird nur so wenig
               Zahnsubtantz entfernt, wie unbedingt notwendig. Darüber hinaus hilft das Mikroskop, mögliche Probleme
               frühzeitig zu erkennen, was präventive Behandlungen begünstigt und größere Eingriffe oft überflüssig
               macht.
@@ -137,7 +137,7 @@
         <LanguageBox language-prop="at" class="flex items-center">Mundhygiene <ULink
             class="bg-primary text-white py-1 px-2 rounded hover:bg-primary-600 mx-1" to="https://Mundhygiene-zahnarzt.at">hier</ULink> online buchen
         </LanguageBox>
-        <LanguageBox language-prop="ee">online puhastuse aja saate broneerida <ULink
+        <LanguageBox language-prop="ee">Online puhastuse aja saate broneerida <ULink
             class="bg-primary text-white py-1 px-2 rounded hover:bg-primary-600 mx-1" to="https://Mundhygiene-zahnarzt.at">siin</ULink>
         </LanguageBox>
         <LanguageBox language-prop="ru">Запишитесь на профессиональную гигиену полости рта онлайн <ULink
