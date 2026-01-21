@@ -26,8 +26,8 @@ const links = [
   },
   {
     label: "Leistungen",
-    icon: "i-heroicons-book-open-16-solid",
     to: "/services",
+    labelClass: 'opacity-50 cursor-not-allowed',
     click: () => {
       isOpen.value = false;
     }
