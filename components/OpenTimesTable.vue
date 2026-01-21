@@ -1,22 +1,70 @@
 <script setup lang="ts">
 const daysAT = [{
-  Tag: 'Montag - Freitag',
-  Zeit: '14:00 - 18:00'
+  Tag: 'Montag',
+  Zeit: '10:00 - 15:00'
+}, {
+  Tag: 'Dienstag',
+  Zeit: '10:00 - 15:00'
+}, {
+  Tag: 'Mittwoch',
+  Zeit: '10:00 - 15:00'
+}, {
+  Tag: 'Donnerstag',
+  Zeit: '10:00 - 15:00'
+}, {
+  Tag: 'Freitag',
+  Zeit: 'Geschlossen'
 }]
 
-const daysEE =  [{
-  Päev: 'Esmaspäev - Reede',
-  Aeg: '14:00 - 18:00'
+const daysEE = [{
+  Päev: 'Esmaspäev',
+  Aeg: '10:00 - 15:00'
+}, {
+  Päev: 'Teisipäev',
+  Aeg: '10:00 - 15:00'
+}, {
+  Päev: 'Kolmapäev',
+  Aeg: '10:00 - 15:00'
+}, {
+  Päev: 'Neljapäev',
+  Aeg: '10:00 - 15:00'
+}, {
+  Päev: 'Reede',
+  Aeg: 'Suletud'
 }]
 
 const daysRU = [{
-  день: 'Понедельник - Пятница',
-  Время: '14:00 - 18:00'
+  День: 'Понедельник',
+  Время: '10:00 - 15:00'
+}, {
+  День: 'Вторник',
+  Время: '10:00 - 15:00'
+}, {
+  День: 'Среда',
+  Время: '10:00 - 15:00'
+}, {
+  День: 'Четверг',
+  Время: '10:00 - 15:00'
+}, {
+  День: 'Пятница',
+  Время: 'Закрыто'
 }]
 
 const daysEN = [{
-  Day: 'Monday - Friday',
-  Time: '14:00 - 18:00'
+  Day: 'Monday',
+  Time: '10:00 - 15:00'
+}, {
+  Day: 'Tuesday',
+  Time: '10:00 - 15:00'
+}, {
+  Day: 'Wednesday',
+  Time: '10:00 - 15:00'
+}, {
+  Day: 'Thursday',
+  Time: '10:00 - 15:00'
+}, {
+  Day: 'Friday',
+  Time: 'Closed'
 }]
 //Пятница = Freitag
 //Понедельник = montag

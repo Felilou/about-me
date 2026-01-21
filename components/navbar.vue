@@ -25,6 +25,14 @@ const links = [
     }
   },
   {
+    label: "Leistungen",
+    icon: "i-heroicons-book-open-16-solid",
+    to: "/services",
+    click: () => {
+      isOpen.value = false;
+    }
+  },
+  {
     label: "Praxis",
     icon: "i-heroicons-briefcase-16-solid",
     to: "https://mikroskopzahnarzt.at/praxis/equipment/",
