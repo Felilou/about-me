@@ -27,7 +27,6 @@ const links = [
   {
     label: "Leistungen",
     to: "/services",
-    labelClass: 'opacity-50 cursor-not-allowed',
     click: () => {
       isOpen.value = false;
     }

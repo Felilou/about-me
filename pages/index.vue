@@ -1,14 +1,38 @@
 <template>
   <div
-    class="fixed-bg fixed w-screen h-screen -z-10 lg:bg-[url('https://raw.githubusercontent.com/Felilou/about-me/refs/heads/build/img/20240916-GZ1A8300-1.jpg')] bg-[url('https://raw.githubusercontent.com/Felilou/about-me/refs/heads/build/img/20240916-GZ1A8300-1.jpg')] ">
+    class="fixed-bg fixed w-screen h-screen -z-10 lg:bg-[url('https://raw.githubusercontent.com/Felilou/about-me/refs/heads/build/img/Erstes%20Bild.jpg')] bg-[url('https://raw.githubusercontent.com/Felilou/about-me/refs/heads/build/img/Erstes%20Bild.jpg')] ">
   </div>
   <div class="h-[85vh] flex justify-center items-end">
-        <div class="w-full bg-white flex justify-center items-center p-2">
-            <img src="https://raw.githubusercontent.com/Felilou/about-me/refs/heads/build/img/image.png" alt="" class="w-[600px]">
-        </div>
+    <div class="w-full bg-white flex justify-center items-center p-2">
+      <img src="https://raw.githubusercontent.com/Felilou/about-me/refs/heads/build/img/image.png" alt=""
+        class="w-[600px]">
     </div>
+  </div>
   <div class="bg-white border-t border-primary">
     <UContainer class="px-2 py-7 mx-auto max-w-[1500px]">
+
+      <UContainer class="max-w-[900px] mx-auto px-4 pt-12 pb-8">
+        <LanguageBox language-prop="at">
+          <h1 class="text-3xl md:text-4xl font-bold text-center text-primary mb-2">Mikroskop-Zahnärztin in Wien</h1>
+          <h2 class="text-xl md:text-2xl font-semibold text-center text-gray-700 mb-6">Ganzheitliche &amp;
+            zahnerhaltende Zahnmedizin</h2>
+          <p class="text-lg text-gray-700 leading-relaxed">
+            Willkommen in meiner Zahnarztpraxis in Wien.
+            Als spezialisierte Mikroskop-Zahnärztin liegt mein Fokus auf präziser, substanzschonender und ganzheitlicher
+            Zahnmedizin mit dem klaren Ziel: <strong>Zahnerhalt vor Zahnersatz.</strong>
+          </p>
+          <p class="text-lg text-gray-700 leading-relaxed">
+            Durch den Einsatz eines Operationsmikroskops arbeite ich mit maximaler Genauigkeit. Selbst feinste
+            Strukturen werden sichtbar, Behandlungen können minimalinvasiv durchgeführt und natürliche Zähne langfristig
+            erhalten werden.
+          </p>
+          <p class="text-lg text-gray-700 leading-relaxed italic">
+            Ich nehme mir Zeit, höre Ihnen zu und betrachte Sie als ganzen Menschen – nicht nur einzelne Zähne.
+          </p>
+        </LanguageBox>
+      </UContainer>
+
+
       <LanguageBox language-prop="at">
         <p class="max-w-[1000px] mx-auto">Herzlich Willkommen bei der Mikroskop-Zahnheilkunde! In unserer Ordination
           werden alle zahnmedizinischen Behandlungen mit dem Mikroskop durchgeführt. Als Patient/in haben sie dadurch
@@ -80,11 +104,12 @@
               major interventions unnecessary.</p>
           </LanguageBox>
         </div>
-        <img src="https://raw.githubusercontent.com/Felilou/about-me/refs/heads/build/img/20240916-GZ1A8345.jpg" alt="" class="md:w-[50%] border border-gray-200 p-2 object-cover format">
+        <img src="https://raw.githubusercontent.com/Felilou/about-me/refs/heads/build/img/20240916-GZ1A8345.jpg" alt=""
+          class="md:w-[50%] border border-gray-200 p-2 object-cover format">
       </div>
       <div class="md:flex shadow rounded p-2 min-h-[25em] bg-gray-100 mb-[3em]">
-        <img src="https://raw.githubusercontent.com/Felilou/about-me/refs/heads/build/img/20240916-GZ1A8208-1.jpg" alt=""
-          class="md:w-[50%] border border-gray-200 p-2 object-cover format">
+        <img src="https://raw.githubusercontent.com/Felilou/about-me/refs/heads/build/img/20240916-GZ1A8208-1.jpg"
+          alt="" class="md:w-[50%] border border-gray-200 p-2 object-cover format">
         <div class="md:w-[50%] md:px-2">
           <LanguageBox language-prop="at">
             <h3>Videobrille</h3>
@@ -135,16 +160,20 @@
       </div>
       <div class="bg-gray-100 mb-[3em] p-2 shadow rounded">
         <LanguageBox language-prop="at" class="flex items-center">Mundhygiene <ULink
-            class="bg-primary text-white py-1 px-2 rounded hover:bg-primary-600 mx-1" to="https://Mundhygiene-zahnarzt.at">hier</ULink> online buchen
+            class="bg-primary text-white py-1 px-2 rounded hover:bg-primary-600 mx-1"
+            to="https://Mundhygiene-zahnarzt.at">hier</ULink> online buchen
         </LanguageBox>
         <LanguageBox language-prop="ee">Online puhastuse aja saate broneerida <ULink
-            class="bg-primary text-white py-1 px-2 rounded hover:bg-primary-600 mx-1" to="https://Mundhygiene-zahnarzt.at">siin</ULink>
+            class="bg-primary text-white py-1 px-2 rounded hover:bg-primary-600 mx-1"
+            to="https://Mundhygiene-zahnarzt.at">siin</ULink>
         </LanguageBox>
         <LanguageBox language-prop="ru">Запишитесь на профессиональную гигиену полости рта онлайн <ULink
-            class="bg-primary text-white py-1 px-2 rounded hover:bg-primary-600 mx-1" to="https://Mundhygiene-zahnarzt.at">здесь</ULink>
+            class="bg-primary text-white py-1 px-2 rounded hover:bg-primary-600 mx-1"
+            to="https://Mundhygiene-zahnarzt.at">здесь</ULink>
         </LanguageBox>
         <LanguageBox language-prop="en">Book your dental hygiene appointment online <ULink
-            class="bg-primary text-white py-1 px-2 rounded hover:bg-primary-600 mx-1" to="https://Mundhygiene-zahnarzt.at">here</ULink>
+            class="bg-primary text-white py-1 px-2 rounded hover:bg-primary-600 mx-1"
+            to="https://Mundhygiene-zahnarzt.at">here</ULink>
         </LanguageBox>
       </div>
       <LanguageBox language-prop="at">
@@ -176,8 +205,8 @@
 useSeoMeta({
   title: 'Dr. Ene Königswieser | Mikroskop - Zahnarztpraxis',
   ogTitle: 'Dr. Ene Königswieser | Mikroskop - Zahnarztpraxis',
-  description: 'Dr.Ene Königswieser. Präzise Zahnbehandlung mit langanhaltenden Ergebnissen, in freundlicher Athmosphäre.',
-  ogDescription: 'Dr.Ene Königswieser. Präzise Zahnbehandlung mit langanhaltenden Ergebnissen, in freundlicher Athmosphäre.',
+  description: 'Mikroskop-Zahnärztin in Wien für ganzheitliche Zahnmedizin. Wurzelkanalbehandlung unter Mikroskop, Kunststofffüllungen, Mundhygiene, Bleaching & Kronen – präzise, zahnerhaltend und individuell betreut.  ',
+  ogDescription: 'Mikroskop-Zahnärztin in Wien für ganzheitliche Zahnmedizin. Wurzelkanalbehandlung unter Mikroskop, Kunststofffüllungen, Mundhygiene, Bleaching & Kronen – präzise, zahnerhaltend und individuell betreut.',
   ogImage: 'https://raw.githubusercontent.com/Felilou/about-me/refs/heads/build/img/20240916-GZ1A8139.jpg',
   colorScheme: 'only light',
   themeColor: 'blue',
